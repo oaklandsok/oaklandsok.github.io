@@ -1,0 +1,18 @@
+baseurl = "https://oaklandsok.github.io"
+languageCode = "en-us"
+title = "Systematizing Systematization of Knowledge"
+subtitle = ""
+theme = "sok"
+
+[params]
+    sidebartitle = "Systematization of Knowledge"
+    sidebartagline = "IEEE Symposium on Security and Privacy"
+    nodate = true
+    noauthor = true
+    noread = true
+    nopaging=true
+    notoc=true
+
+[[menu.main]]
+
+[[menu.footer]]

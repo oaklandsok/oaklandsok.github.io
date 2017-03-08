@@ -1,0 +1,21 @@
+{{ partial "header.html" . }}
+
+  <a name="top"></a>
+
+  <div class="content">
+
+    {{ partial "sidebar.html" . }}
+
+  <div class="main">
+    {{ range .Site.Pages }}
+        {{ if eq .Title "Generations Montessori School Charlottesville" }}
+           {{ .Content }}
+           {{ partial "footer.html" . }}  
+      {{ end }}
+    {{ end }} 
+
+      </div>
+  </div>
+  </div>
+</body>
+</html>
