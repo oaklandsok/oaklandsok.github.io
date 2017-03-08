@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Systematizing Systematization of Knowledge</title>
+    <link>https://oaklandsok.github.io/index.xml</link>
+    <description>Recent content on Systematizing Systematization of Knowledge</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://oaklandsok.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Systematizing Systematization of Knowledge</title>
+      <link>https://oaklandsok.github.io/main/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://oaklandsok.github.io/main/</guid>
+      <description>
+
+&lt;h1 id=&#34;center-systematizing-systematization-of-knowledge-center&#34;&gt;&lt;center&gt;Systematizing Systematization of Knowledge&lt;/center&gt;&lt;/h1&gt;
+
+&lt;p&gt;Since 2010, the IEEE Symposium on Security and Privacy (&amp;ldquo;Oakland&amp;rdquo;
+conference) has included papers on &lt;em&gt;Systematization of Knowledge&lt;/em&gt;
+(SoK).  This site collects (and attempts to systematize!) all the
+Oakland SoK papers.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
