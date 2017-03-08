@@ -9,11 +9,14 @@ MARKDOWN = python3 -m markdown
 BASEDIR = .
 DOCSDIR = $(BASEDIR)/content/docs
 PAGEDIR = $(BASEDIR)/content/
+SRCDIR = $(BASEDIR)/../src/
 
 html:
+	cd $(SRCDIR); make
+	cat $(SRCDIR)/main.top $(SRCDIR)/byyear.html $(SRCDIR)/main.bottom > $(PAGEDIR)/main.md
 	hugo --theme=$(THEME)
 
-develop:
+develop: html
 	hugo server --theme=$(THEME) --buildDrafts --watch
 
 github: html
