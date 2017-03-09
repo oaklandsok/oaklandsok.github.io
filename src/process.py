@@ -23,7 +23,7 @@ def generate_web(title, authors, year, url):
 if __name__=="__main__":
     papers = read_papers("papers.csv")
 
-    print ("""   <table cellspacing=5><tr><td align="center" width="50%">Title</td><td width="50%" align="center">Authors</td></tr> """)
+    print ("""   <table cellspacing=5><tr><td style="text-align: center;" width="50%">Title</td><td width="50%" stype="text-align: center;">Authors</td></tr> """)
     lastyear = None
     shading = False
     for p in papers:

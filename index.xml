@@ -23,7 +23,7 @@ conference) has included papers on &lt;em&gt;Systematization of Knowledge&lt;/em
 (SoK).  This site collects (and attempts to systematize!) all the
 Oakland SoK papers.&lt;/p&gt;
 
-&lt;p&gt;&lt;table cellspacing=5&gt;&lt;tr&gt;&lt;td align=&#34;center&#34; width=&#34;50%&#34;&gt;Title&lt;/td&gt;&lt;td width=&#34;50%&#34; align=&#34;center&#34;&gt;Authors&lt;/td&gt;&lt;/tr&gt;
+&lt;p&gt;&lt;table cellspacing=5&gt;&lt;tr&gt;&lt;td style=&#34;text-align: center;&#34; width=&#34;50%&#34;&gt;Title&lt;/td&gt;&lt;td width=&#34;50%&#34; stype=&#34;text-align: center;&#34;&gt;Authors&lt;/td&gt;&lt;/tr&gt;
 &lt;tr bgcolor=&#34;CCCC33&#34; color=&#34;FFF&#34;&gt;&lt;td colspan=&#34;2&#34;&gt;2010&lt;/td&gt;&lt;/tr&gt;
 &lt;tr bgcolor=&#34;EEEECE&#34;&gt;&lt;td&gt;&lt;a href=&#34;https://oaklandsok.github.io/papers/sommer2010.pdf&#34;&gt;&lt;em&gt;Outside the Closed World: On Using Machine Learning For Network Intrusion Detection&lt;/em&gt;&lt;/td&gt;&lt;td&gt;Robin Sommer (International Computer Science Institute / Lawrence Berkeley National Laboratory), Vern Paxson (International Computer Science Institute / University of California, Berkeley)&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;a href=&#34;https://oaklandsok.github.io/papers/schwartz2010.pdf&#34;&gt;&lt;em&gt;All You Ever Wanted to Know about Dynamic Taint Analysis and Forward Symbolic Execution (but might have been afraid to ask)&lt;/em&gt;&lt;/td&gt;&lt;td&gt;Thanassis Avgerinos, Edward Schwartz, David Brumley (Carnegie Mellon University)&lt;/td&gt;&lt;/tr&gt;
