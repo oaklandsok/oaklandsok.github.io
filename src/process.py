@@ -18,7 +18,7 @@ def read_papers(fname):
     return papers
 
 def generate_web(title, authors, year, url):
-    return ("<td><a href=\"/papers/" + url + "\"><em>" + title + "</em></td><td>" + authors + "</td>")
+    return ("<td style=\"padding: 10px;\"><a href=\"/papers/" + url + "\"><em>" + title + "</em></td><td>" + authors + "</td>")
 
 if __name__=="__main__":
     papers = read_papers("papers.csv")
@@ -29,7 +29,7 @@ if __name__=="__main__":
     for p in papers:
         if p["Year"] != lastyear:
             lastyear = p["Year"]
-            print("<tr bgcolor=\"CCCC33\" color=\"FFF\"><td colspan=\"2\">" + p["Year"] + "</td></tr>")
+            print("<tr bgcolor=\"CCCC33\" color=\"FFF\"><td colspan=\"2\" style=\"text-align: center;\">" + p["Year"] + "</td></tr>")
         row = generate_web(p["Title"], p["Authors"], p["Year"], p["URL"])
         print(("<tr>" if shading else "<tr bgcolor=\"EEEECE\">") + row + "</tr>")
         shading = not shading
