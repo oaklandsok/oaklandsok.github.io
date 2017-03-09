@@ -51,14 +51,14 @@ margin-bottom: 20px;
 html, body { height: 100%; }
 
 body {
-	font:16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font:16px/1 "Open Sans", Helvetica, sans-serif;
 	color: #666;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
 }
 
 h1 {
-	font-size: 30px;
+	font-size: 25px;
 	letter-spacing: -1px;
 	color: #222;
 	font-weight: bold;
@@ -313,7 +313,6 @@ pre	{
 
 table {
 	width: 100%;
-	margin: 40px 0;
 	border-collapse: collapse;
 	font-size: 13px;
 	line-height: 1.5em;
