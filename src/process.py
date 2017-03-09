@@ -23,13 +23,13 @@ def generate_web(title, authors, year, url):
 if __name__=="__main__":
     papers = read_papers("papers.csv")
 
-    print ("""   <table cellspacing=5><tr><td style="text-align: center;" width="50%">Title</td><td width="50%" stype="text-align: center;">Authors</td></tr> """)
+    print ("""   <table> """)
     lastyear = None
     shading = False
     for p in papers:
         if p["Year"] != lastyear:
             lastyear = p["Year"]
-            print("<tr bgcolor=\"CCCC33\" color=\"FFF\"><td colspan=\"2\" style=\"text-align: center;\">" + p["Year"] + "</td></tr>")
+            print('<tr bgcolor="CCCC33" color="FFF"><td colspan="2" style="text-align: center; text-color: #FFFFFF">' + p["Year"] + "</td></tr>")
         row = generate_web(p["Title"], p["Authors"], p["Year"], p["URL"])
         print(("<tr>" if shading else "<tr bgcolor=\"EEEECE\">") + row + "</tr>")
         shading = not shading
