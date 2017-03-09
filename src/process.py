@@ -18,7 +18,7 @@ def read_papers(fname):
     return papers
 
 def generate_web(title, authors, year, url):
-    return ("<td style=\"padding: 10px;\"><a href=\"/papers/" + url + "\"><em>" + title + "</em></td><td style=\"padding: 10px;\">" + authors + "</td>")
+    return ("<td style=\"padding: 10px; border-bottom: 1px solid #ddd;\"><a href=\"/papers/" + url + "\"><em>" + title + "</em></td><td style=\"padding: 10px; border-bottom: 1px solid #ddd;\">" + authors + "</td>")
 
 if __name__=="__main__":
     papers = read_papers("papers.csv")
