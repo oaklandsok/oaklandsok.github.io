@@ -336,10 +336,6 @@ tr>td {
 	border-top: 1px solid #eaeaea;
 }
 
-tr:nth-child(odd)>td {
-	background: #fcfcfc;
-}
-
 thead th,th {
 	text-align: left;
 	padding: 10px 15px;

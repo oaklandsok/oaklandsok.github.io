@@ -27,9 +27,9 @@ if __name__=="__main__":
     lastyear = None
     shading = False
     for p in papers:
-        if p["Year"] != lastyear:
+        if not p["Year"] == lastyear:
             lastyear = p["Year"]
-            print('<tr bgcolor="CCCC33" color="FFF"><td colspan="2" style="text-align: center; text-color: #FFFFFF">' + p["Year"] + "</td></tr>")
+            print('<tr bgcolor="CCCC33"><td colspan="2" style="text-align: center; color: #FFFFFF">' + p["Year"] + "</td></tr>")
         row = generate_web(p["Title"], p["Authors"], p["Year"], p["URL"])
         print(("<tr>" if shading else "<tr bgcolor=\"EEEECE\">") + row + "</tr>")
         shading = not shading
