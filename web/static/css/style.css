@@ -58,10 +58,12 @@ body {
 }
 
 h1 {
-	font-size: 30px;
-	letter-spacing: -1px;
-	color: #222;
+	font-size: 28px;
+	background-color: #CCCC33;
+	color: #FFFFFF;
 	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 h2 {
