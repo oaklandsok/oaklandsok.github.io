@@ -23,11 +23,10 @@ def read_papers(fname):
         # remove affiliations
         nauthors = []
         for author in authors.split(','):
-            aname = author
+            aname = author.strip()
             affiliation = author.find('(')
             if affiliation > 5:
                 aname = author[:affiliation].strip()
-            print ("name: " + aname)
             assert (')' not in aname)
             assert ('and ' not in aname)
             nauthors.append(aname)
