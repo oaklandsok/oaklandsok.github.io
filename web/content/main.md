@@ -52,6 +52,7 @@ name: Norbert Pohlmann
 name: Herbert Bos
 name: Maarten van Steen
 name: Yajin Zhou
+name: Xuxian Jiang
 name: Adele Howe
 name:  Indrajit Ray
 name:  Mark Roberts
@@ -165,7 +166,7 @@ name: Vern Paxson
 <tr bgcolor="EEEECE"><td width="45%" style="padding: 10px; border-bottom: 1px solid #ddd;"><a href="/papers/" + url + ""><em>Timing- and Termination-Sensitive Secure Information Flow: Exploring a New Approach</em></td><td style="padding: 10px; border-bottom: 1px solid #ddd;">Vineeth Kashyap, Ben Wiedermann, Ben Hardekopf</td></tr>
 <tr bgcolor="CCCC33"><td colspan="2" style="bgcolor: #CCCC33; text-align: center; color: #FFFFFF">2012</td></tr>
 <tr><td width="45%" style="padding: 10px; border-bottom: 1px solid #ddd;"><a href="/papers/" + url + ""><em>Prudent Practices for Designing Malware Experiments: Status Quo and Outlook</em></td><td style="padding: 10px; border-bottom: 1px solid #ddd;">Christian Rossow, Christian J. Dietrich,  Chris Grier,  Christian Kreibich, Vern Paxson, Norbert Pohlmann, Herbert Bos, Maarten van Steen</td></tr>
-<tr bgcolor="EEEECE"><td width="45%" style="padding: 10px; border-bottom: 1px solid #ddd;"><a href="/papers/" + url + ""><em>Dissecting Android Malware: Characterization and Evolution</em></td><td style="padding: 10px; border-bottom: 1px solid #ddd;">Yajin Zhou</td></tr>
+<tr bgcolor="EEEECE"><td width="45%" style="padding: 10px; border-bottom: 1px solid #ddd;"><a href="/papers/" + url + ""><em>Dissecting Android Malware: Characterization and Evolution</em></td><td style="padding: 10px; border-bottom: 1px solid #ddd;">Yajin Zhou, Xuxian Jiang</td></tr>
 <tr><td width="45%" style="padding: 10px; border-bottom: 1px solid #ddd;"><a href="/papers/" + url + ""><em>The Psychology of Security for the Home Computer User</em></td><td style="padding: 10px; border-bottom: 1px solid #ddd;">Adele Howe,  Indrajit Ray,  Mark Roberts,  Malgorzata Urbanska, Zinta Byrne</td></tr>
 <tr bgcolor="EEEECE"><td width="45%" style="padding: 10px; border-bottom: 1px solid #ddd;"><a href="/papers/" + url + ""><em>Peek-a-Boo, I Still See you: Why Efficient Traffic Analysis Countermeasures Fail</em></td><td style="padding: 10px; border-bottom: 1px solid #ddd;">Kevin P. Dyer, Scott E. Coull, Thomas Ristenpart, Thomas Shrimpton</td></tr>
 <tr><td width="45%" style="padding: 10px; border-bottom: 1px solid #ddd;"><a href="/papers/" + url + ""><em>Third-Party Web Tracking Policy and Technology</em></td><td style="padding: 10px; border-bottom: 1px solid #ddd;">Jonathan R. Mayer, John C. Mitchell</td></tr>
