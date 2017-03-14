@@ -19,6 +19,8 @@ def read_papers(fname):
     for paper in papers:
         if not paper["Title"]:
             papers.delete(paper)
+        print ("Title: " + paper["Title"])
+        assert "pdf" in paper["URL"]
         authors = paper["Authors"]
         # remove affiliations
         nauthors = []
