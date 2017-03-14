@@ -15,6 +15,21 @@ def read_papers(fname):
         for row in sreader:
            papers.append({key: value for key, value in zip(headers, row)})
 
+    # cleanup
+    for paper in papers:
+        if not paper["Title"]:
+            papers.delete(paper)
+        authors = paper["Authors"]
+        # remove affiliations
+        nauthors = []
+        for author in authors.split(','):
+            aname = author
+            affiliation = author.find('(')
+            if affiliation > 5:
+                aname = author[:affiliation].strip()
+
+            nauthors.append(aname)
+        paper["Authors"] = ', '.join(nauthors)
     return papers
 
 def generate_web(title, authors, year, url):
@@ -29,7 +44,7 @@ if __name__=="__main__":
     for p in papers:
         if not p["Year"] == lastyear:
             lastyear = p["Year"]
-            print('<tr bgcolor="CCCC33"><td colspan="2" style="text-align: center; color: #FFFFFF">' + p["Year"] + "</td></tr>")
+            print('<tr bgcolor="CCCC33"><td colspan="2" style="bgcolor: #CCCC33; text-align: center; color: #FFFFFF">' + p["Year"] + "</td></tr>")
         row = generate_web(p["Title"], p["Authors"], p["Year"], p["URL"])
         print(("<tr>" if shading else "<tr bgcolor=\"EEEECE\">") + row + "</tr>")
         shading = not shading
