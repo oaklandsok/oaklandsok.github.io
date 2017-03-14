@@ -23,39 +23,7 @@ conference) has included papers on &lt;em&gt;Systematization of Knowledge&lt;/em
 (SoK).  This site collects (and attempts to systematize!) all the
 Oakland SoK papers.&lt;/p&gt;
 
-&lt;p&gt;Title: Outside the Closed World: On Using Machine Learning For Network Intrusion Detection
-Title: All You Ever Wanted to Know about Dynamic Taint Analysis and Forward Symbolic Execution (but might have been afraid to ask)
-Title: State of the Art: Automated Black-Box Web Application Vulnerability Testing
-Title: How Good are Humans at Solving CAPTCHAs? A Large Scale Evaluation
-Title: Bootstrapping Trust in Commodity Computers
-Title: Formalizing Anonymous Blacklisting Systems
-Title: Mobile Security Catching Up? - Revealing the nuts and bolts of the security of mobile devices
-Title: A Formal Foundation for the Security Features of Physical Functions
-Title: Timing- and Termination-Sensitive Secure Information Flow: Exploring a New Approach
-Title: Prudent Practices for Designing Malware Experiments: Status Quo and Outlook
-Title: Dissecting Android Malware: Characterization and Evolution
-Title: The Psychology of Security for the Home Computer User
-Title: Peek-a-Boo, I Still See you: Why Efficient Traffic Analysis Countermeasures Fail
-Title: Third-Party Web Tracking Policy and Technology
-Title: OB-PWS: Obfuscation-Based Private Web Search
-Title: The quest to replace passwords: A framework for comparative evaluation of web authentication schemes
-Title: SoK: Eternal War in Memory
-Title: SoK: P2PWNED &amp;mdash; Modeling and Evaluating the Resilience of Peer-to-Peer Botnets
-Title: SoK: Secure Data Deletion
-Title: SoK: The Evolution of Sybil Defense via Social Networks
-Title: SoK: SSL and HTTPS: Revisiting Past Challenges and Evaluating Certificate Trust Model Enhancements
-Title: SoK: Security and Privacy in Implantable Medical Devices and Body Area Networks
-Title: SoK: Introspections on Trust and the Semantic Gap
-Title: SoK: Research Perspectives and Challenges for Bitcoin and Cryptocurrencies
-Title: SoK: Secure Messaging
-Title: SoK: A comprehensive analysis of game-based ballot privacy definitions
-Title: SoK: Deep Packer Inspection: A Longitudinal Study of the Complexity of Run-Time Packers
-Title: SoK: (State of) The Art of War: Offensive Techniques in Binary Analysis
-Title: SoK: Everyone Hates Robocalls: A Survey of Techniques against Telephone SpamÂ 
-Title: SoK: Lessons Learned From Android Security Research For Appified Software Platforms
-Title: SoK: Verifiability Notions for E-Voting Protocols
-Title: SoK: Towards Grounding Censorship Circumvention in Empiricism
-   &lt;table&gt;
+&lt;p&gt;&lt;table&gt;
 &lt;tr bgcolor=&#34;CCCC33&#34;&gt;&lt;td colspan=&#34;2&#34; style=&#34;bgcolor: #CCCC33; text-align: center; color: #FFFFFF&#34;&gt;2010&lt;/td&gt;&lt;/tr&gt;
 &lt;tr bgcolor=&#34;EEEECE&#34;&gt;&lt;td width=&#34;45%&#34; style=&#34;padding: 10px; border-bottom: 1px solid #ddd;&#34;&gt;&lt;a href=&#34;https://oaklandsok.github.io/papers/sommer2010.pdf&#34;&gt;&lt;em&gt;Outside the Closed World: On Using Machine Learning For Network Intrusion Detection&lt;/em&gt;&lt;/td&gt;&lt;td style=&#34;padding: 10px; border-bottom: 1px solid #ddd;&#34;&gt;Robin Sommer, Vern Paxson&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td width=&#34;45%&#34; style=&#34;padding: 10px; border-bottom: 1px solid #ddd;&#34;&gt;&lt;a href=&#34;https://oaklandsok.github.io/papers/schwartz2010.pdf&#34;&gt;&lt;em&gt;All You Ever Wanted to Know about Dynamic Taint Analysis and Forward Symbolic Execution (but might have been afraid to ask)&lt;/em&gt;&lt;/td&gt;&lt;td style=&#34;padding: 10px; border-bottom: 1px solid #ddd;&#34;&gt;Thanassis Avgerinos, Edward Schwartz, David Brumley&lt;/td&gt;&lt;/tr&gt;
