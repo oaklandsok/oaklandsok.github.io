@@ -32,7 +32,7 @@ def read_papers(fname):
                 aname = author[:affiliation].strip()
             assert (')' not in aname)
             assert ('and ' not in aname)
-            aname.replace(' ', '&nbsp;')
+            aname = aname.replace(' ', '&nbsp;')
             nauthors.append(aname)
         paper["Authors"] = ', '.join(nauthors)
     return papers
