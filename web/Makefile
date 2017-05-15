@@ -14,6 +14,7 @@ SRCDIR = $(BASEDIR)/../src/
 html:
 	cd $(SRCDIR); make
 	cat $(SRCDIR)/main.top $(SRCDIR)/byyear.html $(SRCDIR)/main.bottom > $(PAGEDIR)/main.md
+	cat $(SRCDIR)/authors.top $(SRCDIR)/authors.html $(SRCDIR)/main.bottom > $(PAGEDIR)/authors.md
 	hugo --theme=$(THEME)
 
 develop: html
