@@ -6,8 +6,13 @@ title = "Systematizing Systematization of Knowledge"
 
 Since 2010, the IEEE Symposium on Security and Privacy ("Oakland"
 conference) has included papers on _Systematization of Knowledge_
-(SoK).  This site collects (and attempts to systematize!) all the
-Oakland SoK papers.
+(SoK).  This paper track grew out of discussions at the <a
+href="https://sos.cs.virginia.edu"><em>NSF/IARPA/NSA Workshop on the
+Science of Security</em></a> held at the Claremont Resort in November
+2008.
+
+This site collects (and attempts to systematize!) all the Oakland SoK
+papers.
 
 
    <table> 
