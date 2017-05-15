@@ -25,6 +25,7 @@ def read_papers(fname):
         # remove affiliations
         nauthors = []
         for author in authors.split(','):
+            # print("Author: " + author)
             aname = author.strip()
             affiliation = author.find('(')
             if affiliation > 5:
