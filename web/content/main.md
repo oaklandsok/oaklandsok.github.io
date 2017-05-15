@@ -11,6 +11,8 @@ href="http://sos.cs.virginia.edu"><em>NSF/IARPA/NSA Workshop on the
 Science of Security</em></a> held at the Claremont Resort in November
 2008.
 
+[Systematization of Knowledge: Frequently Asked Questions](http://oakland31.cs.virginia.edu/sokfaq.html)
+
 This site collects (and attempts to systematize!) all the Oakland SoK
 papers.
 
