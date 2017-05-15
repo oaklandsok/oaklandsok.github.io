@@ -9,6 +9,8 @@ import csv
 
 def read_papers(fname):
     papers = []
+    tauthors = {}
+
     with open(fname, encoding='ISO-8859-1') as csvfile:
         sreader = csv.reader(csvfile, delimiter=',', quotechar='"')
         headers = next(sreader)
@@ -34,6 +36,10 @@ def read_papers(fname):
             assert ('and ' not in aname)
             aname = aname.replace(' ', '&nbsp;')
             nauthors.append(aname)
+            if aname in tauthors:
+                tauthors[aname] += paper
+            else:
+                tauthors[aname] = [paper]
         paper["Authors"] = ', '.join(nauthors)
     return papers
 
@@ -43,14 +49,16 @@ def generate_web(title, authors, year, url):
 if __name__=="__main__":
     papers = read_papers("papers.csv")
 
-    print ("""   <table> """)
-    lastyear = None
-    shading = False
-    for p in papers:
-        if not p["Year"] == lastyear:
-            lastyear = p["Year"]
-            print('<tr bgcolor="CCCC33"><td colspan="2" style="bgcolor: #CCCC33; text-align: center; color: #FFFFFF">' + p["Year"] + "</td></tr>")
-        row = generate_web(p["Title"], p["Authors"], p["Year"], p["URL"])
-        print(("<tr>" if shading else "<tr bgcolor=\"EEEECE\">") + row + "</tr>")
-        shading = not shading
-    print ("""   </table>""") 
+    print("Writing byyear.html...")
+    with open("byyear.html", "w") as f:
+      f.write("""   <table> """)
+      lastyear = None
+      shading = False
+      for p in papers:
+          if not p["Year"] == lastyear:
+              lastyear = p["Year"]
+              f.write('<tr bgcolor="CCCC33"><td colspan="2" style="bgcolor: #CCCC33; text-align: center; color: #FFFFFF">' + p["Year"] + "</td></tr>")
+              row = generate_web(p["Title"], p["Authors"], p["Year"], p["URL"])
+              f.write(("<tr>" if shading else "<tr bgcolor=\"EEEECE\">") + row + "</tr>")
+              shading = not shading
+      f.write("""   </table>""") 
