@@ -18,7 +18,7 @@ not listed here.)
 [Attacks and Solutions in Hardware Security (ASHES)](http://ashesworkshop.org/call-for-papers) (started in 2017)  
 [Reversing and Offensive-oriented Trends Symposium (ROOTS)](http://roots-conference.org/cfp.html) (started in 2017)  
 [Principles of Security and Trust](http://www.etaps.org/2017/post) (started in 2017)  
-[Understanding and Enhancing On-line Privacy](http://www.internetsociety.org/events/ndss-symposium-2016/ueop-programme/ueop-workshop-call-papers)  ([2016](http://www.internetsociety.org/events/ndss-symposium-2016/ueop-programme/ueop-workshop-call-papers))
+[Understanding and Enhancing On-line Privacy](http://www.internetsociety.org/events/ndss-symposium-2016/ueop-programme/ueop-workshop-call-papers)  ([2016](http://www.internetsociety.org/events/ndss-symposium-2016/ueop-programme/ueop-workshop-call-papers))  
 [Security Standardization Research](http://www.ssresearch.eu/2017/) (since [2017](http://www.ssresearch.eu/2017/))  
 
 ### Cryptography
