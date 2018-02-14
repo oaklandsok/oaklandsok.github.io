@@ -68,6 +68,7 @@ if __name__=="__main__":
       f.write("""   <table> """)
       lastyear = None
       shading = False
+      papers.sort(key = lambda p: p["Year"], reverse=True)
       for p in papers:
           if not p["Year"] == lastyear:
               lastyear = p["Year"]
