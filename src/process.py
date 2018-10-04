@@ -29,7 +29,7 @@ def read_papers(fname):
     # cleanup
     for paper in papers:
         if not paper["Title"]:
-            papers.delete(paper)
+            pass
         # print ("Title: " + paper["Title"])
         assert "pdf" in paper["URL"]
         authors = paper["Authors"]
