@@ -35,7 +35,7 @@ p a {
 
 .main {
   float: right;
-  width: 70%;
+  width: 85%;
   margin-left: 0px;
 }
 
@@ -146,7 +146,7 @@ p a {
 
 .content {
   position:absolute;
-  width: 70%;
+  width: 80%;
   top: 1%;
 }
 

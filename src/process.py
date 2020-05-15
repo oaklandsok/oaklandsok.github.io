@@ -55,7 +55,7 @@ def read_papers(fname):
     return papers, lauthors
 
 def generate_web(title, authors, year, url):
-    return ('<td width="45%" style="padding: 10px; border-bottom: 1px solid #ddd;"><a href="/papers/' + url + '"><em>' + title + '</em></a></td><td style="padding: 10px; border-bottom: 1px solid #ddd;">' + authors + "</td>")
+    return ('<td width="45%" style="padding: 10px; border-bottom: 1px solid #EDA4BD;"><a href="/papers/' + url + '"><em>' + title + '</em></a></td><td style="padding: 10px; border-bottom: 1px solid #EDA4BD;">' + authors + "</td>")
 
 def generate_short(title, authors, year, url):
     return ('<a href="/papers/' + url + '"><em>' + title + '</em></a> (' + year + ')')
@@ -72,9 +72,9 @@ if __name__=="__main__":
       for p in papers:
           if not p["Year"] == lastyear:
               lastyear = p["Year"]
-              f.write('<tr bgcolor="CCCC33"><td colspan="2" style="bgcolor: #CCCC33; text-align: center; color: #FFFFFF">' + p["Year"] + "</td></tr>")
+              f.write('<tr bgcolor="C46BAE"><td colspan="2" style="bgcolor: #C46BAE; text-align: center; color: #FFFFFF">' + p["Year"] + "</td></tr>")
           row = generate_web(p["Title"], p["Authors"], p["Year"], p["URL"])
-          f.write(("<tr>" if shading else "<tr bgcolor=\"EEEECE\">") + row + "</tr>")
+          f.write(("<tr>" if shading else "<tr bgcolor=\"EEEEFE\">") + row + "</tr>")
           shading = not shading
       f.write("""   </table>""") 
 
