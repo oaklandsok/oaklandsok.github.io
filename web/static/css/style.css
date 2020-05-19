@@ -646,3 +646,13 @@ h2.month {
   padding-left: 44px ;
   text-indent: -22px ;
 }
+
+
+.note {
+   margin-left: 50px;
+   margin-right: 60px;
+   background: #FAE6E6;
+   margin-bottom: 10px;
+   padding: 12px;
+   text-align: center;
+}

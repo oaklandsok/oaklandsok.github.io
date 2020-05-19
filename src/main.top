@@ -11,6 +11,11 @@ href="http://sos.cs.virginia.edu"><em>NSF/IARPA/NSA Workshop on the
 Science of Security</em></a> held at the Claremont Resort in November
 2008.  This site collects all the Oakland SoK papers.
 
+<div class="note">
+The <a href="http://oakland10.cs.virginia.edu/program.html#sok1">very first ever SoK paper</a> presented at the 31<sup>st</sup> IEEE Symposium on Security and Privacy (Oakland 2010) was <a href="https://oaklandsok.github.io/papers/sommer2010.pdf"><em>Outside the Closed World: On Using Machine Learning For Network Intrusion Detection</em></a> by Robin Sommer and Vern Paxson. At the <a href="https://www.ieee-security.org/TC/SP2020/">41<sup>st</sup> IEEE Symposium on Security and Privacy</a>, this paper was recognized with a <a href="https://www.ieee-security.org/TC/SP2020/awards.html">Test-of-Time Award</a>. Congratulations to Robin Sommer and Vern Paxson for the lasting impact of the first SoK paper!
+</div>
+
+
 <center>
 [SoK Authors](/authors) &middot; [Frequently Asked Questions](http://oakland31.cs.virginia.edu/sokfaq.html)<br>
 [Other Conferences with SoK](/others)
