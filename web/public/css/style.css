@@ -651,8 +651,8 @@ h2.month {
 .note {
    margin-left: 50px;
    margin-right: 60px;
-   background: #FAE6E6;
+   background: #E5C100;
    margin-bottom: 10px;
    padding: 12px;
-   text-align: center;
+   text-align: left;
 }
