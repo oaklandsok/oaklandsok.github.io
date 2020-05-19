@@ -53,7 +53,7 @@ html, body { height: 100%; }
 
 body {
 	font:16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #666;
+	color: #000;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
 }
@@ -651,10 +651,13 @@ h2.month {
 .note {
    margin-left: 50px;
    margin-right: 60px;
-   background: #F2E07F;
+   background: #f8efbf;
    margin-bottom: 10px;
    padding: 12px;
    text-align: left;
    line-height: 1.4;
    color: #000;
+   border-color: #e5c100; 
+   border-style: solid;
+   border-width: 2px;
 }
