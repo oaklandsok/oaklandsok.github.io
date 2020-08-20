@@ -13,6 +13,10 @@ theme = "sok"
     nopaging=true
     notoc=true
 
+[markup.goldmark.renderer]
+unsafe= true
+
+
 [[menu.main]]
 
 [[menu.footer]]

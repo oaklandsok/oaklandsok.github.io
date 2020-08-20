@@ -16,7 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://oaklandsok.github.io/main/</guid>
-      <description>Systematizing Systematization of Knowledge </description>
+      <description>Systematizing Systematization of Knowledge Since 2010, the IEEE Symposium on Security and Privacy (&#34;Oakland&#34;conference) has included papers on Systematization of Knowledge(SoK). This paper track grew out of discussions at the NSF/IARPA/NSA Workshop on theScience of Security held at the Claremont Resort in November2008. This site collects all the Oakland SoK papers.SoK Authors · Frequently Asked Questions· Other Conferences with SoK</description>
     </item>
     
     <item>
@@ -25,7 +25,16 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://oaklandsok.github.io/authors/</guid>
-      <description>SoK Authors Hadi AbdullahSoK: The Faults in our ASRs: An Overview of Attacks against Automatic Speech Recognition and Speaker Identification Systems(2021)Yasemin AcarSoK: Lessons Learned From Android Security Research For Appified Software Platforms(2016)Sadia AfrozSoK: Towards Grounding Censorship Circumvention in Empiricism(2016)Gail-Joon AhnSoK: Everyone Hates Robocalls: A Survey of Techniques against Telephone Spam(2016)Omar AlrawiSoK: Security Evaluation of Home-Based IoT Deployments(2019)Lorenzo AlvisiSoK: The Evolution of Sybil Defense via Social Networks(2013)Dennis AndriesseSoK: P2PWNED — Modeling and Evaluating the Resilience of Peer-to-Peer Botnets(2013)AnonymousSoK: Towards Grounding Censorship Circumvention in Empiricism(2016)Manos AntonakakisSoK: Security Evaluation of Home-Based IoT Deployments(2019)SoK: The Challenges, Pitfalls, and Perils of Using Hardware Performance Counters for Security(2019)Frederik ArmknechtA Formal Foundation for the Security Features of Physical Functions(2011)Thanassis AvgerinosAll You Ever Wanted to Know about Dynamic Taint Analysis and Forward Symbolic Execution (but might have been afraid to ask)(2010)Michael BackesSoK: Lessons Learned From Android Security Research For Appified Software Platforms(2016)Mirza Basim BaigSoK: Introspections on Trust and the Semantic Gap(2014)Michael BaileySoK: &amp;ldquo;Plug &amp;amp; Pray&amp;rdquo; Today - Understanding USB Insecurity in Versions 1 through C(2018)Ero BalsaOB-PWS: Obfuscation-Based Private Web Search(2012)Davide BalzarottiSoK: Deep Packer Inspection: A Longitudinal Study of the Complexity of Run-Time Packers(2015)SoK: Cyber Insurance - Technical Challenges and a System Security Roadmap(2020)Manuel BarbosaSoK: Computer-Aided Cryptography(2021)ÊGilles BartheSoK: Computer-Aided Cryptography(2021)David BasinSoK: Secure Data Deletion(2013)Adam BatesSoK: &amp;ldquo;Plug &amp;amp; Pray&amp;rdquo; Today - Understanding USB Insecurity in Versions 1 through C(2018)Jason BauState of the Art: Automated Black-Box Web Application Vulnerability Testing(2010)Michael BecherMobile Security Catching Up?</description>
+      <description>SoK Authors Hadi Abdullah
+SoK: The Faults in our ASRs: An Overview of Attacks against Automatic Speech Recognition and Speaker Identification Systems (2021)
+Yasemin Acar
+SoK: Lessons Learned From Android Security Research For Appified Software Platforms (2016)
+Sadia Afroz
+SoK: Towards Grounding Censorship Circumvention in Empiricism (2016)
+Gail-Joon Ahn
+SoK: Everyone Hates Robocalls: A Survey of Techniques against Telephone Spam (2016)
+Omar Alrawi
+SoK: Security Evaluation of Home-Based IoT Deployments (2019)</description>
     </item>
     
     <item>
