@@ -4,6 +4,8 @@ title = "Systematizing Systematization of Knowledge"
 subtitle = ""
 theme = "sok"
 
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
 [params]
     sidebartitle = "Systematization of Knowledge"
     sidebartagline = "IEEE Symposium on Security and Privacy"
@@ -15,6 +17,7 @@ theme = "sok"
 
 [markup.goldmark.renderer]
 unsafe= true
+
 
 
 [[menu.main]]
