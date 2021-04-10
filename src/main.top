@@ -16,7 +16,7 @@ conference) has included papers on <em>Systematization of Knowledge</em>
 (SoK).  This paper track grew out of discussions at the <a
 href="http://sos.cs.virginia.edu"><em>NSF/IARPA/NSA Workshop on the
 Science of Security</em></a> held at the Claremont Resort in November
-2008.  This site collects all the Oakland SoK papers.
+2008.  This site collects all the Oakland SoK papers, as well as SoK papers in IEEE European Symposium on Security and Privacy (EuroS&amp;P).
    </p>
    <center>
    
