@@ -18,6 +18,7 @@ def last_name(fullname):
 
 def read_papers(fname):
     papers = []
+    venues = []
     tauthors = {}
 
     with open(fname, encoding='ISO-8859-1') as csvfile:
@@ -34,6 +35,9 @@ def read_papers(fname):
         assert "pdf" in paper["URL"]
         authors = paper["Authors"]
         # remove affiliations
+        if paper["Venue"] not in venues:
+            print ("New venue: " + paper["Venue"])
+            venues.append(paper["Venue"])
         nauthors = []
         for author in authors.split(','):
             # print("Author: " + author)
