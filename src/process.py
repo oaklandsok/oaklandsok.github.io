@@ -58,11 +58,18 @@ def read_papers(fname):
     lauthors.sort(key = lambda a: last_name(a[0]))
     return papers, lauthors
 
-def generate_web(title, authors, year, url):
-    return ('<td width="45%" style="padding: 10px; border-bottom: 1px solid #EDA4BD;"><a href="/papers/' + url + '"><em>' + title + '</em></a></td><td style="padding: 10px; border-bottom: 1px solid #EDA4BD;">' + authors + "</td>")
+def venue_text(venue):
+    if venue and venue != "Oakland":
+        venuetext = "  (" + venue + ")"
+    else:
+        venuetext = ""
+    return venuetext
 
-def generate_short(title, authors, year, url):
-    return ('<a href="/papers/' + url + '"><em>' + title + '</em></a> (' + year + ')')
+def generate_web(title, authors, year, url, venue):
+    return ('<td width="45%" style="padding: 10px; border-bottom: 1px solid #EDA4BD;"><a href="/papers/' + url + '"><em>' + title + '</em></a>' + venue_text(venue) + '</td><td style="padding: 10px; border-bottom: 1px solid #EDA4BD;">' + authors + "</td>")
+
+def generate_short(title, authors, year, url, venue):
+    return ('<a href="/papers/' + url + '"><em>' + title + '</em></a> (' + venue + ' ' + year + ')')
 
 if __name__=="__main__":
     papers, authors = read_papers("papers.csv")
@@ -77,7 +84,7 @@ if __name__=="__main__":
           if not p["Year"] == lastyear:
               lastyear = p["Year"]
               f.write('<tr bgcolor="C46BAE"><td colspan="2" style="bgcolor: #C46BAE; text-align: center; color: #FFFFFF">' + p["Year"] + "</td></tr>")
-          row = generate_web(p["Title"], p["Authors"], p["Year"], p["URL"])
+          row = generate_web(p["Title"], p["Authors"], p["Year"], p["URL"], p["Venue"])
           f.write(("<tr>" if shading else "<tr bgcolor=\"EEEEFE\">") + row + "</tr>")
           shading = not shading
       f.write("""   </table>""") 
@@ -91,5 +98,5 @@ if __name__=="__main__":
           papers.sort(key = lambda p: p["Year"])
           for paper in papers:
               # print("Paper: " + str(list(paper.items())))
-              f.write('<p class="hanging">' + generate_short(paper["Title"], paper["Authors"], paper["Year"], paper["URL"]) + "</p>")
+              f.write('<p class="hanging">' + generate_short(paper["Title"], paper["Authors"], paper["Year"], paper["URL"], paper["Venue"]) + "</p>")
           f.write("</p><p>")
