@@ -5,11 +5,9 @@ title = "Systematizing Systematization of Knowledge - Other Conferences"
 # Other Conferences with SoK Papers
 
 Since IEEE Security and Privacy started the SoK papers in 2010,
-several other venues have also include SoK papers.  (Please [let me
-know](mailto:evans@virginia.edu) if you know of any others that are
-not listed here.)
+several other venues have also include SoK papers.  
 
-[ACM Workshop on Artificial Intelligence and Security](http://ai-sec.net/AISec2017/call-for-papers.html) (started in [2012](http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=23571&copyownerid=38742), continuing)
+[ACM Workshop on Artificial Intelligence and Security](http://ai-sec.net/AISec2017/call-for-papers.html) (started in [2012](http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=23571&copyownerid=38742), continuing)  
 [International Workshop on Genome Privacy and Security (GenoPri)](http://www.genopri.org/) (since [2014](http://2014.genopri.org/call-for-papers.html))  
 [Hardware and Architectural Support for Security and Privacy (HASP)](http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=59907&copyownerid=12951) (since [2015](http://caslab.csl.yale.edu/workshops/hasp2015/))  
 [IEEE European Symposium on Security and Privacy (EuroOakland)](https://www.ieee-security.org/TC/EuroSP2017/cfp.php) (since first edition in 2016)  
@@ -28,17 +26,13 @@ not listed here.)
 [Symposium on Usable Privacy and Security (SOUPS)](https://www.usenix.org/conference/soups2019/call-for-papers) (started in 2019)  
 [International Conference on Availability, Reliability and Security](https://www.ares-conference.eu/) (ARES) (since [2020](https://2020.ares-conference.eu/))
 
-
-
-
-
-
-
 <p><br></br></p>
 <p>
-<font size="-1">
+Please [let me
+know](mailto:evans@virginia.edu) if you know of any others that are
+not listed here.
+
 Thanks to Shujun Li for bringing many of these to my attention!
-</font>
 </p>
 
 
