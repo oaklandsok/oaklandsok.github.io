@@ -27,7 +27,8 @@ several other venues have also include SoK papers.
 [International Conference on Availability, Reliability and Security](https://www.ares-conference.eu/) (ARES) (since [2020](https://2020.ares-conference.eu/))
 
 <p><br></br></p>
-<p>
+
+
 Please [let me
 know](mailto:evans@virginia.edu) if you know of any others that are
 not listed here.
