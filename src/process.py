@@ -70,7 +70,7 @@ def generate_web(title, authors, year, url, venue):
 
 def generate_short(title, authors, year, url, venue):
     if url.startswith("https://"):
-        return ('<a href=' + url + '"><em>' + title + '</em></a> (' + venue + ' ' + year + ')')
+        return ('<a href=' + url + '><em>' + title + '</em></a> (' + venue + ' ' + year + ')')
     else:
         return ('<a href="/papers/' + url + '"><em>' + title + '</em></a> (' + venue + ' ' + year + ')')
 
