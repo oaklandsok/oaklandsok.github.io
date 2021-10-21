@@ -31,8 +31,8 @@ def read_papers(fname):
     for paper in papers:
         if not paper["Title"]:
             pass
-        # print ("Title: " + paper["Title"])
-        assert "pdf" in paper["URL"]
+        print ("Title: " + paper["URL"])
+        assert ("pdf" in paper["URL"]) or ("https" in paper["URL"])
         authors = paper["Authors"]
         # remove affiliations
         if paper["Venue"] not in venues:
@@ -69,7 +69,10 @@ def generate_web(title, authors, year, url, venue):
     return ('<td width="45%" style="padding: 10px; border-bottom: 1px solid #EDA4BD;"><a href="/papers/' + url + '"><em>' + title + '</em></a>' + venue_text(venue) + '</td><td style="padding: 10px; border-bottom: 1px solid #EDA4BD;">' + authors + "</td>")
 
 def generate_short(title, authors, year, url, venue):
-    return ('<a href="/papers/' + url + '"><em>' + title + '</em></a> (' + venue + ' ' + year + ')')
+    if url.startswith("https://"):
+        return ('<a href=' + url + '"><em>' + title + '</em></a> (' + venue + ' ' + year + ')')
+    else:
+        return ('<a href="/papers/' + url + '"><em>' + title + '</em></a> (' + venue + ' ' + year + ')')
 
 if __name__=="__main__":
     papers, authors = read_papers("papers.csv")
