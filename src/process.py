@@ -66,7 +66,12 @@ def venue_text(venue):
     return venuetext
 
 def generate_web(title, authors, year, url, venue):
-    return ('<td width="45%" style="padding: 10px; border-bottom: 1px solid #EDA4BD;"><a href="/papers/' + url + '"><em>' + title + '</em></a>' + venue_text(venue) + '</td><td style="padding: 10px; border-bottom: 1px solid #EDA4BD;">' + authors + "</td>")
+    if url.startswith("https://"):
+        urlp = url
+    else:
+        urlp = '<a href="/papers/' + url + '">'
+    return ('<td width="45%" style="padding: 10px; border-bottom: 1px solid #EDA4BD;">' + url + '<em>' + title + '</em></a>' + venue_text(venue) + '</td><td style="padding: 10px; border-bottom: 1px solid #EDA4BD;">' + authors + "</td>")
+
 
 def generate_short(title, authors, year, url, venue):
     if url.startswith("https://"):
