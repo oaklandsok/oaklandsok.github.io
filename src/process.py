@@ -67,7 +67,7 @@ def venue_text(venue):
 
 def generate_web(title, authors, year, url, venue):
     if url.startswith("https://"):
-        urlp = url
+        urlp = '<a href="' + url + '">'
     else:
         urlp = '<a href="/papers/' + url + '">'
     return ('<td width="45%" style="padding: 10px; border-bottom: 1px solid #EDA4BD;">' + urlp + '<em>' + title + '</em></a>' + venue_text(venue) + '</td><td style="padding: 10px; border-bottom: 1px solid #EDA4BD;">' + authors + "</td>")
