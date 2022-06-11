@@ -13,7 +13,7 @@ def last_name(fullname):
         return fullname
     assert lastspace > 1
     lastname = fullname[lastspace + 6:]
-    print("lastname: " + lastname)
+    # print("lastname: " + lastname)
     return lastname
 
 def read_papers(fname):
@@ -31,8 +31,12 @@ def read_papers(fname):
     for paper in papers:
         if not paper["Title"]:
             pass
-        print ("Title: " + paper["URL"])
-        assert ("pdf" in paper["URL"]) or ("https" in paper["URL"])
+        print ("Title: " + paper["Title"])
+        print ("URL: " + paper["URL"])
+        if paper["URL"]:
+            assert ("pdf" in paper["URL"]) or ("https" in paper["URL"])
+        else:
+            print("No URL for paper: " + paper["Title"])
         authors = paper["Authors"]
         # remove affiliations
         if paper["Venue"] not in venues:
@@ -60,10 +64,10 @@ def read_papers(fname):
 
 def venue_text(venue):
     if venue and venue != "Oakland":
-        venuetext = "  (" + venue + ")"
+        venuetext = venue
     else:
-        venuetext = ""
-    return venuetext
+        venuetext = "S&amp;P"
+    return  "<font color='#888' size='-1'>&nbsp;(" + venuetext + ")</font>" 
 
 def generate_web(title, authors, year, url, venue):
     if url.startswith("https://"):
@@ -87,7 +91,8 @@ if __name__=="__main__":
       f.write("""   <table> """)
       lastyear = None
       shading = False
-      papers.sort(key = lambda p: p["Year"], reverse=True)
+      papers.sort(key = lambda p: (p["Authors"]))
+      papers.sort(key = lambda p: (p["Year"]), reverse=True)
       for p in papers:
           if not p["Year"] == lastyear:
               lastyear = p["Year"]
