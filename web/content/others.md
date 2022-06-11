@@ -7,7 +7,7 @@ title = "Systematizing Systematization of Knowledge - Other Conferences"
 Since IEEE Security and Privacy started the SoK papers in 2010,
 several other venues have also include SoK papers.  
 
-[ACM Workshop on Artificial Intelligence and Security](http://ai-sec.net/AISec2017/call-for-papers.html) (started in [2012](http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=23571&copyownerid=38742), continuing)  
+[ACM Workshop on Artificial Intelligence and Security](https://aisec.cc/) (started in [2012](http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=23571&copyownerid=38742), continuing)  
 [International Workshop on Genome Privacy and Security (GenoPri)](http://www.genopri.org/) (since [2014](http://2014.genopri.org/call-for-papers.html))  
 [Hardware and Architectural Support for Security and Privacy (HASP)](http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=59907&copyownerid=12951) (since [2015](http://caslab.csl.yale.edu/workshops/hasp2015/))  
 [IEEE European Symposium on Security and Privacy (EuroOakland)](https://www.ieee-security.org/TC/EuroSP2017/cfp.php) (since first edition in 2016)  

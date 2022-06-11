@@ -5,7 +5,11 @@
     <link>https://oaklandsok.github.io/</link>
     <description>Recent content on Systematizing Systematization of Knowledge</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://oaklandsok.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    
+	<atom:link href="https://oaklandsok.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Systematizing Systematization of Knowledge</title>
       <link>https://oaklandsok.github.io/main/</link>
