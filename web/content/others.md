@@ -7,7 +7,7 @@ title = "Systematizing Systematization of Knowledge - Other Conferences"
 Since IEEE Security and Privacy started the SoK papers in 2010,
 several other venues have also include SoK papers.  
 
-[ACM Workshop on Artificial Intelligence and Security](https://aisec.cc/) (started in [2012](http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=23571&copyownerid=38742), continuing)  
+[ACM Workshop on Artificial Intelligence and Security (AISec)](https://aisec.cc/) (started in [2012](http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=23571&copyownerid=38742), continuing)  
 [International Workshop on Genome Privacy and Security (GenoPri)](http://www.genopri.org/) (since [2014](http://2014.genopri.org/call-for-papers.html))  
 [Hardware and Architectural Support for Security and Privacy (HASP)](http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=59907&copyownerid=12951) (since [2015](http://caslab.csl.yale.edu/workshops/hasp2015/))  
 [IEEE European Symposium on Security and Privacy (EuroOakland)](https://www.ieee-security.org/TC/EuroSP2017/cfp.php) (since first edition in 2016)  
@@ -21,6 +21,7 @@ several other venues have also include SoK papers.
 [Security Standardization Research](http://www.ssresearch.eu/2017/) (since [2017](http://www.ssresearch.eu/2017/))  
 [RSA Cryptographers' Track](https://www.cosic.esat.kuleuven.be/ct-rsa2017/) (since 2017)  
 [ACM ASIA Public-Key Cryptography Workshop](https://dl.acm.org/doi/proceedings/10.1145/3197507) (since 2018)  
+[IEEE Computer Security Foundations Symposium](https://www.ieee-security.org/TC/CSF2023/) (since [2019](https://web.stevens.edu/csf2019/cfp.html))  
 [ACM Advances in Financial Technologies](https://aft.acm.org/aft21/index.html) (since first conference in 2019)  
 [ACM Asia Conference on Computer and Communications Security (AsiaCCS)](http://jianying.space/asiaccs/) (since [2019](https://asiaccs2019.blogs.auckland.ac.nz/call/call-for-papers/))  
 [Symposium on Usable Privacy and Security (SOUPS)](https://www.usenix.org/conference/soups2019/call-for-papers) (started in 2019)  
