@@ -38,7 +38,7 @@ Please [let me
 know](mailto:evans@virginia.edu) if you know of any others that are
 not listed here.
 
-Thanks to Shujun Li and Jan Pennekamp for bringing many of these to my attention! 
+Thanks to Shujun Li and Jan Pennekamp for bringing many of these to my attention! Additional thanks to Giovanni Apruzzese.
 </p>
 
 
