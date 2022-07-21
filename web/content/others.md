@@ -28,8 +28,8 @@ several other venues have also include SoK papers.
 [Workshop on CPS & IoT Security and Privacy](https://cpsiotsec.github.io/) (since [2020](https://cpsiotsec.github.io/pastworkshops/2020/))  
 [International Conference on Availability, Reliability and Security](https://www.ares-conference.eu/) (ARES) (since [2020](https://2020.ares-conference.eu/))  
 [ACM Cyber-Physical System Security Workshop](https://spritz.math.unipd.it/events/2021/CPSS/) (since 2021)  
-[IEEE International Conference on Blockchain and Cryptocurrency](https://icbc2022.ieee-icbc.org/call-papers) (since 2022)
-
+[IEEE International Conference on Blockchain and Cryptocurrency](https://icbc2022.ieee-icbc.org/call-papers) (since 2022)  
+[Journal of Systems Research (JSys)](https://www.jsys.org/type_SoK/) (since 2022)
 
 <p><br></br></p>
 
