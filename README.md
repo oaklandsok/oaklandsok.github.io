@@ -1,3 +1,3 @@
-# Oakland SoK
+# Systematization of Knwoledge
 
-Content for Oakland So-SoK website
+Content for oaklandsok.github.io website
