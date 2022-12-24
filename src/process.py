@@ -49,8 +49,8 @@ def read_papers(fname):
             affiliation = author.find('(')
             if affiliation > 5:
                 aname = author[:affiliation].strip()
-            assert (')' not in aname)
-            assert ('and ' not in aname)
+            assert (')' not in aname), "Bad name: " + aname
+            assert ('and ' not in aname), "Names include and: " + aname
             aname = aname.replace(' ', '&nbsp;')
             nauthors.append(aname)
             if aname in tauthors:
@@ -60,8 +60,18 @@ def read_papers(fname):
         paper["Authors"] = ', '.join(nauthors)
     lauthors = list(tauthors.items())
     lauthors.sort(key = lambda a: last_name(a[0]))
-    return papers, lauthors
+    return papers, lauthors, venues
 
+def venue_file(venue):
+    if venue == "Oakland":
+        return "oakland"
+    elif venue == "EuroS&P":
+        return "eurosp"
+    elif venue == "PETS":
+        return "pets"
+    else:
+        assert False, "Bad venue: " + venue
+        
 def venue_text(venue):
     if venue and venue != "Oakland":
         venuetext = venue
@@ -69,12 +79,12 @@ def venue_text(venue):
         venuetext = "S&amp;P"
     return  "<font color='#888' size='-1'>&nbsp;(" + venuetext + ")</font>" 
 
-def generate_web(title, authors, year, url, venue):
+def generate_web(title, authors, year, url, venue, showvenue = True):
     if url.startswith("https://"):
         urlp = '<a href="' + url + '">'
     else:
         urlp = '<a href="/papers/' + url + '">'
-    return ('<td width="45%" style="padding: 10px; border-bottom: 1px solid #EDA4BD;">' + urlp + '<em>' + title + '</em></a>' + venue_text(venue) + '</td><td style="padding: 10px; border-bottom: 1px solid #EDA4BD;">' + authors + "</td>")
+    return ('<td width="45%" style="padding: 10px; border-bottom: 1px solid #EDA4BD;">' + urlp + '<em>' + title + '</em></a>' + (venue_text(venue) if showvenue  else "") + '</td><td style="padding: 10px; border-bottom: 1px solid #EDA4BD;">' + authors + "</td>")
 
 
 def generate_short(title, authors, year, url, venue):
@@ -84,7 +94,7 @@ def generate_short(title, authors, year, url, venue):
         return ('<a href="/papers/' + url + '"><em>' + title + '</em></a> (' + venue + ' ' + year + ')')
 
 if __name__=="__main__":
-    papers, authors = read_papers("papers.csv")
+    papers, authors, venues = read_papers("papers.csv")
 
     print("Writing byyear.html...")
     with open("byyear.html", "w") as f:
@@ -102,6 +112,28 @@ if __name__=="__main__":
           shading = not shading
       f.write("""   </table>""") 
 
+    print("Writing by venues...")
+    for venue in venues:
+        if not venue: continue
+        print ("Venue: " + venue)
+        fname = venue_file(venue) + ".html"
+        with open(fname, "w") as f:
+            f.write("""   <table> """)
+            lastyear = None
+            shading = False
+            papers.sort(key = lambda p: (p["Title"]))
+            papers.sort(key = lambda p: (p["Year"]), reverse=True)
+            for p in papers:
+                if not p["Venue"] == venue:
+                    continue
+                if not p["Year"] == lastyear:
+                    lastyear = p["Year"]
+                    f.write('<tr bgcolor="C46BAE"><td colspan="2" style="bgcolor: #C46BAE; text-align: center; color: #FFFFFF">' + p["Year"] + "</td></tr>")
+                row = generate_web(p["Title"], p["Authors"], p["Year"], p["URL"], p["Venue"], showvenue=False)
+                f.write(("<tr>" if shading else "<tr bgcolor=\"EEEEFE\">") + row + "</tr>")
+                shading = not shading
+            f.write("""   </table>""") 
+      
     print("Writing authors.html...")
     with open("authors.html", "w") as f:
       for author in authors:

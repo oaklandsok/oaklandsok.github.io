@@ -12,7 +12,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://oaklandsok.github.io/main/</guid>
-      <description>Systematizing Systematization of Knowledge Since 2010, the IEEE Symposium on Security and Privacy (&#34;Oakland&#34;conference) has included papers on Systematization of Knowledge(SoK). This paper track grew out of discussions at the NSF/IARPA/NSA Workshop on theScience of Security held at the Claremont Resort in November2008. This site collects all the Oakland SoK papers, as well as SoK papers in IEEE European Symposium on Security and Privacy (EuroS&amp;amp;P).</description>
+      <description>Systematizing Systematization of Knowledge Since 2010, the IEEE Symposium on Security and Privacy (&#34;Oakland&#34;conference) has included papers on Systematization of Knowledge(SoK). This paper track grew out of discussions at the NSF/IARPA/NSA Workshop on theScience of Security held at the Claremont Resort in November2008. This site collects all the Oakland SoK papers, as well as SoK papers in IEEE European Symposium on Security and Privacy (EuroS&amp;amp;P, since 2017) and Privacy Enhancing Technologies Symposium (PETS, since 2019).</description>
     </item>
     
     <item>
@@ -21,16 +21,49 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://oaklandsok.github.io/authors/</guid>
-      <description>SoK Authors  AbdelRahman Abdou
+      <description>SoK Authors  
+ ( )
+ ( )
+ ( )
+ ( )
+ ( )
+ ( )
+AbdelRahman Abdou
 SoK: Delegation and Revocation, the Missing Links in the Web&amp;rsquo;s Chain of Trust (EuroS&amp;amp;P 2020)
 Hadi Abdullah
 SoK: The Faults in our ASRs: An Overview of Attacks against Automatic Speech Recognition and Speaker Identification Systems (Oakland 2021)
 Yasemin Acar
-SoK: Lessons Learned From Android Security Research For Appified Software Platforms (Oakland 2016)
-Abbas Acar
-SoK: Cryptojacking Malware (EuroS&amp;amp;P 2021)
-Sadia Afroz
-SoK: Towards Grounding Censorship Circumvention in Empiricism (Oakland 2016)</description>
+SoK: Lessons Learned From Android Security Research For Appified Software Platforms (Oakland 2016)</description>
+    </item>
+    
+    <item>
+      <title>Systematizing Systematization of Knowledge - IEEE Security and Privacy</title>
+      <link>https://oaklandsok.github.io/eurosp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://oaklandsok.github.io/eurosp/</guid>
+      <description>SoK Papers in Euro Security and Privacy  SoK Authors · Frequently Asked Questions · Other Conferences with SoK
+Other Venues: All · Oakland · PETS   2022SoK: All or Nothing - A Postmortem of Solutions to the Third-Party Script Inclusion Permission Model and a Path ForwardSteven&amp;nbsp;Sprecher, Christoph&amp;nbsp;Kerschbaumer, Engin&amp;nbsp;KirdaSoK: Cryptanalysis of Encrypted Search with LEAKER - A framework for LEakage AttacK Evaluation on Real-world dataSeny&amp;nbsp;Kamara, Abdelkarim&amp;nbsp;Kati, Tarik&amp;nbsp;Moataz, Thomas&amp;nbsp;Schneider, Amos&amp;nbsp;Treiber, Michael&amp;nbsp;YonliSoK: Oblivious Pseudorandom FunctionsS&amp;iacute;lvia&amp;nbsp;Casacuberta, Julia&amp;nbsp;Hesse, Anja&amp;nbsp;LehmannSoK: Privacy-Preserving Computing in the Blockchain EraGhada&amp;nbsp;Almashaqbeh, Ravital&amp;nbsp;SolomonSoK: The Impact of Unlabelled Data in Cyberthreat DetectionGiovanni&amp;nbsp;Apruzzese, Pavel&amp;nbsp;Laskov, Aliya&amp;nbsp;TastemirovaSoK: Workerounds - Categorizing Service Worker Attacks and MitigationsKarthika&amp;nbsp;Subramani, Jordan&amp;nbsp;Jueckstock, Alexandros&amp;nbsp;Kapravelos, Roberto&amp;nbsp;Perdisci2021SoK: A Framework for Asset Discovery: Systematizing Advances in Network Measurements for Protecting OrganizationsMathew&amp;nbsp;Vermeer, Jonathan&amp;nbsp;West, Alejandro&amp;nbsp;Cuevas, Shuonan&amp;nbsp;Niu, Nicolas&amp;nbsp;Christin, Michel&amp;nbsp;van&amp;nbsp;Eeten, Tobias&amp;nbsp;Fiebig, Carlos&amp;nbsp;Ga&amp;ntilde;&amp;aacute;n, Tyler&amp;nbsp;MooreSoK: Attacks on Industrial Control Logic and Formal Verification-Based DefensesRuimin&amp;nbsp;Sun, Alejandro&amp;nbsp;Mera, Long&amp;nbsp;Lu, David&amp;nbsp;ChoffnesSoK: Context Sensing for Access Control in the Adversarial Home IoTWeijia&amp;nbsp;He, Valerie&amp;nbsp;Zhao, Olivia&amp;nbsp;Morkved, Sabeeka&amp;nbsp;Siddiqui, Earlence&amp;nbsp;Fernandes, Josiah&amp;nbsp;Hester, Blase&amp;nbsp;UrSoK: Cryptojacking MalwareEge&amp;nbsp;Tekiner, Abbas&amp;nbsp;Acar, A.</description>
+    </item>
+    
+    <item>
+      <title>Systematizing Systematization of Knowledge - IEEE Security and Privacy</title>
+      <link>https://oaklandsok.github.io/oakland/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://oaklandsok.github.io/oakland/</guid>
+      <description>SoK Papers in IEEE Symposium on Security and Privacy  SoK Authors · Frequently Asked Questions · Other Conferences with SoK
+Other Venues: All · Euro S&amp;amp;P · PETS   2023SoK: A Critical Evaluation of Efficient Website Fingerprinting DefensesNate&amp;nbsp;Mathews, James&amp;nbsp;K&amp;nbsp;Holland, Se&amp;nbsp;Eun&amp;nbsp;Oh, Mohammad&amp;nbsp;Saidur&amp;nbsp;Rahman, Nicholas&amp;nbsp;Hopper, Matthew&amp;nbsp;WrightSoK: Anti-Facial Recognition TechnologyEmily&amp;nbsp;Wenger, Shawn&amp;nbsp;Shan, Haitao&amp;nbsp;Zheng, Ben&amp;nbsp;Y.&amp;nbsp;ZhaoSoK: Certified Robustness for Deep Neural NetworksLinyi&amp;nbsp;Li, Tao&amp;nbsp;Xie, Bo&amp;nbsp;LiSoK: History is a Vast Early Warning System: Auditing the Provenance of System IntrusionsMuhammad&amp;nbsp;Adil&amp;nbsp;Inam, Yinfang&amp;nbsp;Chen, Akul&amp;nbsp;Goyal, Jason&amp;nbsp;Liu, Jaron&amp;nbsp;Mink, Noor&amp;nbsp;Michael, Sneha&amp;nbsp;Gaur, Adam&amp;nbsp;Bates, Wajih&amp;nbsp;Ul&amp;nbsp;HassanSoK: Taxonomy of Attacks on Open-Source Software Supply ChainsPiergiorgio&amp;nbsp;Ladisa, Henrik&amp;nbsp;Plate, Matias&amp;nbsp;Martinez, Olivier&amp;nbsp;Barais2022SoK: A Framework for Unifying At-Risk User Research Noel&amp;nbsp;Warford, Tara&amp;nbsp;Matthews, Kaitlyn&amp;nbsp;Yang, Omer&amp;nbsp;Akgul, Sunny&amp;nbsp;Consolvo, Patrick&amp;nbsp;Gage&amp;nbsp;Kelley, Nathan&amp;nbsp;Malkin, Michelle&amp;nbsp;L.</description>
+    </item>
+    
+    <item>
+      <title>Systematizing Systematization of Knowledge - IEEE Security and Privacy</title>
+      <link>https://oaklandsok.github.io/pets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://oaklandsok.github.io/pets/</guid>
+      <description>SoK Papers in Privacy Enhancing Technologies Symposium  SoK Authors · Frequently Asked Questions · Other Conferences with SoK
+Other Venues: All · Oakland · Euro S&amp;amp;P   2022SoK: Assumptions underlying Cryptocurrency Deanonymizations - A Taxonomy for Scientific Experts and Legal PractitionersDominic&amp;nbsp;Deuber, Viktoria&amp;nbsp;Ronge, Christian&amp;nbsp;R&amp;uuml;ckertSoK: Cryptographic Confidentiality of Data on Mobile DevicesMaximilian&amp;nbsp;Zinkus, Tushar&amp;nbsp;M.&amp;nbsp;Jois, Matthew&amp;nbsp;GreenSoK: Plausibly Deniable StorageChen&amp;nbsp;Chen, Xiao&amp;nbsp;Liang, Bogdan&amp;nbsp;Carbunar, Radu&amp;nbsp;SionSoK: Privacy-enhancing Smart Home HubsIgor&amp;nbsp;Zavalyshyn, Axel&amp;nbsp;Legay, Annanda&amp;nbsp;Rath, Etienne&amp;nbsp;RiviereSoK: SCT Auditing in Certificate TransparencySarah&amp;nbsp;Meiklejohn, Joe&amp;nbsp;DeBlasio, Devon&amp;nbsp;O&#39;Brien, Chris&amp;nbsp;Thompson, Kevin&amp;nbsp;Yeo, Emily&amp;nbsp;StarkSoK: TEE-assisted Confidential Smart ContractRujia&amp;nbsp;Li, Qin&amp;nbsp;Wang, Qi&amp;nbsp;Wang, David&amp;nbsp;Galindo, Mark&amp;nbsp;Ryan2021SoK: Efficient Privacy-preserving ClusteringAditya&amp;nbsp;Hegde, Helen&amp;nbsp;M&amp;ouml;llering, Thomas&amp;nbsp;Schneider, Hossein&amp;nbsp;YalameSoK: Managing Longitudinal Privacy of Publicly Shared Personal Online DataTheodor&amp;nbsp;Schnitzler, Shujaat&amp;nbsp;Mirza, Markus&amp;nbsp;D&amp;uuml;rmuth, Christina&amp;nbsp;P&amp;ouml;pperSoK: Privacy-Preserving Collaborative Tree-based Model LearningSylvain&amp;nbsp;Chatel, Apostolos&amp;nbsp;Pyrgelis, Juan&amp;nbsp;Ram&amp;oacute;n&amp;nbsp;Troncoso-Pastoriza, Jean-Pierre&amp;nbsp;HubauxSoK: Privacy-Preserving Computation Techniques for Deep LearningJos&amp;eacute;&amp;nbsp;Cabrero-Holgueras, Sergio&amp;nbsp;PastranaSoK: Privacy-Preserving Reputation SystemsStan&amp;nbsp;Gurtler, Ian&amp;nbsp;Goldberg2020SoK: Anatomy of Data BreachesHamza&amp;nbsp;Saleem, Muhammad&amp;nbsp;NaveedSoK: Differential privaciesDamien&amp;nbsp;Desfontaines, Bal&amp;aacute;zs&amp;nbsp;Pej&amp;oacute;2019SoK: Modular and Efficient Private Decision Tree Evaluation&amp;Aacute;gnes&amp;nbsp;Kiss, Masoud&amp;nbsp;Naderpour, Jian&amp;nbsp;Liu, N.</description>
     </item>
     
     <item>
