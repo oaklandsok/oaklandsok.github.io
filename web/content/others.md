@@ -25,6 +25,7 @@ several other venues have also include SoK papers.
 [ACM Advances in Financial Technologies](https://aft.acm.org/aft21/index.html) (since first conference in 2019)  
 [ACM Asia Conference on Computer and Communications Security (AsiaCCS)](http://jianying.space/asiaccs/) (since [2019](https://asiaccs2019.blogs.auckland.ac.nz/call/call-for-papers/))  
 [Symposium on Usable Privacy and Security (SOUPS)](https://www.usenix.org/conference/soups2019/call-for-papers) (started in 2019)  
+[Financial Cryptography and Data Security](https://ifca.ai/) (since [2020](https://fc20.ifca.ai/cfp.html))  
 [Workshop on CPS & IoT Security and Privacy](https://cpsiotsec.github.io/) (since [2020](https://cpsiotsec.github.io/pastworkshops/2020/))  
 [International Conference on Availability, Reliability and Security](https://www.ares-conference.eu/) (ARES) (since [2020](https://2020.ares-conference.eu/))  
 [ACM Cyber-Physical System Security Workshop](https://spritz.math.unipd.it/events/2021/CPSS/) (since 2021)  
