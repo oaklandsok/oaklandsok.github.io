@@ -5,7 +5,11 @@
     <link>https://oaklandsok.github.io/</link>
     <description>Recent content on Systematizing Systematization of Knowledge</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://oaklandsok.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    
+	<atom:link href="https://oaklandsok.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Systematizing Systematization of Knowledge</title>
       <link>https://oaklandsok.github.io/main/</link>
@@ -59,6 +63,19 @@ Other Venues: All · Euro S&amp;amp;P · PETS   2023SoK: A Critical Evaluation 
       <guid>https://oaklandsok.github.io/pets/</guid>
       <description>SoK Papers in Privacy Enhancing Technologies Symposium  SoK Authors · Frequently Asked Questions · Other Conferences with SoK
 Other Venues: All · Oakland · Euro S&amp;amp;P   2023SoK: Content Moderation for End-to-End EncryptionSarah&amp;nbsp;Scheffler, Jonathan&amp;nbsp;MayerSoK: Differentially Private Publication of Trajectory Data&amp;Agrave;lex&amp;nbsp;Miranda-Pascual, Patricia&amp;nbsp;Guerra-Balboa, Javier&amp;nbsp;Parra-Arnau, Jordi&amp;nbsp;Forn, Thorsten&amp;nbsp;StrufeSoK: Managing risks of linkage attacks on data privacyJovan&amp;nbsp;Powar, Alastair&amp;nbsp;R.&amp;nbsp;BeresfordSoK: Secure Aggregation based on cryptographic schemes for Federated LearningMohamad&amp;nbsp;Mansouri, Melek&amp;nbsp;&amp;Ouml;nen, Wafa&amp;nbsp;Ben&amp;nbsp;Jaballah, Mauro&amp;nbsp;ContiSoK: Secure E-Voting with Everlasting PrivacyThomas&amp;nbsp;Haines, Rafieh&amp;nbsp;Mosaheb, Johannes&amp;nbsp;Mueller, Ivan&amp;nbsp;Pryvalov2022SoK: Assumptions underlying Cryptocurrency Deanonymizations - A Taxonomy for Scientific Experts and Legal PractitionersDominic&amp;nbsp;Deuber, Viktoria&amp;nbsp;Ronge, Christian&amp;nbsp;R&amp;uuml;ckertSoK: Cryptographic Confidentiality of Data on Mobile DevicesMaximilian&amp;nbsp;Zinkus, Tushar&amp;nbsp;M.</description>
+    </item>
+    
+    <item>
+      <title>Systematizing Systematization of Knowledge - Other Conferences</title>
+      <link>https://oaklandsok.github.io/others-save/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://oaklandsok.github.io/others-save/</guid>
+      <description>Other Conferences with SoK Papers Since IEEE Security and Privacy started the SoK papers in 2010, several other venues have also include SoK papers.
+ACM Workshop on Artificial Intelligence and Security (AISec) (started in 2012, continuing)
+International Workshop on Genome Privacy and Security (GenoPri) (since 2014)
+Hardware and Architectural Support for Security and Privacy (HASP) (since 2015)
+IEEE European Symposium on Security and Privacy (EuroOakland) (since first edition in 2016)</description>
     </item>
     
     <item>
