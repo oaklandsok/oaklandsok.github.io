@@ -80,15 +80,19 @@ def venue_text(venue):
     return  "<font color='#888' size='-1'>&nbsp;(" + venuetext + ")</font>" 
 
 def generate_web(title, authors, year, url, venue, showvenue = True):
-    if url.startswith("https://"):
+    if not url:
+        urlp = ''
+    elif url.startswith("https://"):
         urlp = '<a href="' + url + '">'
     else:
         urlp = '<a href="/papers/' + url + '">'
-    return ('<td width="45%" style="padding: 10px; border-bottom: 1px solid #EDA4BD;">' + urlp + '<em>' + title + '</em></a>' + (venue_text(venue) if showvenue  else "") + '</td><td style="padding: 10px; border-bottom: 1px solid #EDA4BD;">' + authors + "</td>")
+    return ('<td width="45%" style="padding: 10px; border-bottom: 1px solid #EDA4BD;">' + urlp + '<em>' + title + '</em>' + ('</a>' if url else '') + (venue_text(venue) if showvenue  else "") + '</td><td style="padding: 10px; border-bottom: 1px solid #EDA4BD;">' + authors + "</td>")
 
 
 def generate_short(title, authors, year, url, venue):
-    if url.startswith("https://"):
+    if not url:
+        return ('<em>' + title + '</em> (' + venue + ' ' + year + ')')
+    elif url.startswith("https://"):
         return ('<a href=' + url + '><em>' + title + '</em></a> (' + venue + ' ' + year + ')')
     else:
         return ('<a href="/papers/' + url + '"><em>' + title + '</em></a> (' + venue + ' ' + year + ')')
