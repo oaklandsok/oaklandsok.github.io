@@ -17,6 +17,7 @@ html:
 	cat $(SRCDIR)/oakland.top $(SRCDIR)/oakland.html $(SRCDIR)/main.bottom > $(PAGEDIR)/oakland.md
 	cat $(SRCDIR)/eurosp.top $(SRCDIR)/eurosp.html $(SRCDIR)/main.bottom > $(PAGEDIR)/eurosp.md
 	cat $(SRCDIR)/pets.top $(SRCDIR)/pets.html $(SRCDIR)/main.bottom > $(PAGEDIR)/pets.md
+	cat $(SRCDIR)/satml.top $(SRCDIR)/satml.html $(SRCDIR)/main.bottom > $(PAGEDIR)/satml.md
 	cat $(SRCDIR)/authors.top $(SRCDIR)/authors.html $(SRCDIR)/main.bottom > $(PAGEDIR)/authors.md
 	hugo --theme=$(THEME)
 
