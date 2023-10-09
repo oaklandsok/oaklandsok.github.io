@@ -31,8 +31,8 @@ def read_papers(fname):
     for paper in papers:
         if not paper["Title"]:
             pass
-        print ("Title: " + paper["Title"])
-        print ("URL: " + paper["URL"])
+        # print ("Title: " + paper["Title"])
+        # print ("URL: " + paper["URL"])
         if paper["URL"]:
             assert ("pdf" in paper["URL"]) or ("https" in paper["URL"])
         else:
