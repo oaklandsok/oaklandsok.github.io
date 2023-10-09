@@ -69,6 +69,8 @@ def venue_file(venue):
         return "eurosp"
     elif venue == "PETS":
         return "pets"
+    elif venue == "SaTML":
+        return "satml"
     else:
         assert False, "Bad venue: " + venue
         
