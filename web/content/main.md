@@ -25,15 +25,16 @@ Science of Security</em></a> held at the Claremont Resort in November
 [Other Conferences with SoK](/others)<Br>
 
 Filter by Venue: [IEEE S&amp;P (Oakland)](/oakland) &middot; [Euro S&amp;P](/eurosp) &middot; [PETS](/pets) &middot; [SaTML](/satml) <br>
-   </center>
+
+
+Also see Shunjun Li's [_Online Bibliography of SoK Papers_](https://www.hooklee.com/Research/SoK/SoK.html)<br>
+</center>
 
 <p></p>
 
    <p>
 
-<div class="note">
-The <a href="http://oakland10.cs.virginia.edu/program.html#sok1">very first ever SoK paper</a>, presented at the 31st <em>IEEE Symposium on Security and Privacy</em> (Oakland 2010), was <a href="https://oaklandsok.github.io/papers/sommer2010.pdf"><em>Outside the Closed World: On Using Machine Learning For Network Intrusion Detection</em></a> by Robin Sommer and Vern Paxson. At the <a href="https://www.ieee-security.org/TC/SP2020/">41<sup>st</sup> IEEE Symposium on Security and Privacy</a>, this paper was recognized with a <a href="https://www.ieee-security.org/TC/SP2020/awards.html">Test-of-Time Award</a>. Congratulations to Robin Sommer and Vern Paxson for the lasting impact of the first SoK paper!
-</div>
+
 
 </p>
 
