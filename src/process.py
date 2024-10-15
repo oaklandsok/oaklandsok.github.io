@@ -71,6 +71,8 @@ def venue_file(venue):
         return "pets"
     elif venue == "SaTML":
         return "satml"
+    elif venue == "USENIX":
+        return "usenix"
     else:
         assert False, "Bad venue: " + venue
         
