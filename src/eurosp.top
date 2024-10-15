@@ -4,7 +4,8 @@ title = "Systematizing Systematization of Knowledge - IEEE Security and Privacy"
 
 # <center>SoK Papers in Euro Security and Privacy</center>
 
-   <center>   
+   <center>  
+    
 [SoK Authors](/authors) &middot; [Frequently Asked Questions](http://oakland31.cs.virginia.edu/sokfaq.html) &middot;
 [Other Conferences with SoK](/others)<Br>
 Other Venues: [All](/) &middot; [Oakland](/oakland) &middot; [PETS](/pets)  &middot; [SaTML](/satml)
