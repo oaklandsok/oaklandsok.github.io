@@ -10,9 +10,7 @@ title = "Systematizing Systematization of Knowledge - IEEE Security and Privacy"
 [Other Conferences with SoK](/others)<Br>
 
 Other Venues: [All](/) &middot; [Oakland](/oakland) &middot; [PETS](/pets)  &middot; [SaTML](/satml)
- &middot; [USENIX](/usenix) <br>
-   </center>
-
+ &middot; [USENIX](/usenix) 
  <br>
    </center>
 
