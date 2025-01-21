@@ -32,6 +32,7 @@ several other venues have also include SoK papers.
 [IEEE International Conference on Blockchain and Cryptocurrency](https://icbc2022.ieee-icbc.org/call-papers) (since 2022)  
 [Journal of Systems Research (JSys)](https://www.jsys.org/type_SoK/) (since 2022)
 [IEEE Conference on Secure and Trustworthy Machine Learning](https://satml.org/participate-cfp/) (since first conference in 2023)  
+[Conference on Cryptographic Hardware and Embedded Systems (CHES)](https://ches.iacr.org/) (since [2023](https://ches.iacr.org/2023/callforpapers.php))  
 [USENIX Security Symposium](https://www.usenix.org/conference/usenixsecurity24) (since [2024](https://www.usenix.org/sites/default/files/sec24_cfp_101123.pdf))
 
 
