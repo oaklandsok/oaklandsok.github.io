@@ -11,7 +11,7 @@ def last_name(fullname):
     lastspace = fullname.rfind('&nbsp;')
     if lastspace == -1:
         return fullname
-    assert lastspace > 1
+    assert lastspace > 1, "Problem with last name: " + fullname
     lastname = fullname[lastspace + 6:]
     # print("lastname: " + lastname)
     return lastname
