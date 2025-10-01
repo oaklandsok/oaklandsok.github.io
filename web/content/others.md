@@ -34,7 +34,8 @@ several other venues have also include SoK papers.
 [Journal of Systems Research (JSys)](https://www.jsys.org/type_SoK/) (since 2022)  
 [IEEE Conference on Secure and Trustworthy Machine Learning](https://satml.org/participate-cfp/) (since first conference in 2023)  
 [Conference on Cryptographic Hardware and Embedded Systems (CHES)](https://ches.iacr.org/) (since [2023](https://ches.iacr.org/2023/callforpapers.php))  
-[USENIX Security Symposium](https://www.usenix.org/conference/usenixsecurity24) (since [2024](https://www.usenix.org/sites/default/files/sec24_cfp_101123.pdf))
+[USENIX Security Symposium](https://www.usenix.org/conference/usenixsecurity24) (since [2024](https://www.usenix.org/sites/default/files/sec24_cfp_101123.pdf))  
+[Workshop on AI for Cyber Threat Intelligence](https://waiti-workshop.github.io/) (since 2025)
 
 
 <p><br></br></p>
