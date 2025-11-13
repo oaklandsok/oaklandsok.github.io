@@ -34,7 +34,7 @@ def read_papers(fname):
         # print ("Title: " + paper["Title"])
         # print ("URL: " + paper["URL"])
         if paper["URL"]:
-            assert ("pdf" in paper["URL"]) or ("https" in paper["URL"])
+            assert ("pdf" in paper["URL"]) or ("https" in paper["URL"]), paper["URL"]
         else:
             print("No URL for paper: " + paper["Title"])
         authors = paper["Authors"]
@@ -150,6 +150,6 @@ if __name__=="__main__":
           papers = author[1]
           papers.sort(key = lambda p: p["Year"])
           for paper in papers:
-              # print("Paper: " + str(list(paper.items())))
+              print("Paper: " + str(list(paper.items())))
               f.write('<p class="hanging">' + generate_short(paper["Title"], paper["Authors"], paper["Year"], paper["URL"], paper["Venue"]) + "</p>")
           f.write("</p><p>")
