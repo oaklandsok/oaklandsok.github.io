@@ -150,6 +150,6 @@ if __name__=="__main__":
           papers = author[1]
           papers.sort(key = lambda p: p["Year"])
           for paper in papers:
-              print("Paper: " + str(list(paper.items())))
+              # print("Paper: " + str(list(paper.items())))
               f.write('<p class="hanging">' + generate_short(paper["Title"], paper["Authors"], paper["Year"], paper["URL"], paper["Venue"]) + "</p>")
           f.write("</p><p>")
