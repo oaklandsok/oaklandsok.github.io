@@ -7,6 +7,15 @@ import time
 import re
 import csv
 
+import unicodedata
+
+def normalize_key(text):
+    # 1. Decompose characters (e.g., 'é' becomes 'e' + 'accent')
+    nfd_form = unicodedata.normalize('NFD', text)
+    
+    # 2. Filter out the accents (non-spacing marks) and make lowercase
+    return "".join(c for c in nfd_form if unicodedata.category(c) != 'Mn').casefold()
+
 def last_name(fullname):
     lastspace = fullname.rfind('&nbsp;')
     if lastspace == -1:
@@ -59,7 +68,7 @@ def read_papers(fname):
                 tauthors[aname] = [paper]
         paper["Authors"] = ', '.join(nauthors)
     lauthors = list(tauthors.items())
-    lauthors.sort(key = lambda a: last_name(a[0]))
+    lauthors.sort(key=lambda a: normalize_key(last_name(a[0])))
     return papers, lauthors, venues
 
 def venue_file(venue):
