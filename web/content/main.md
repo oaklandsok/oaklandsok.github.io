@@ -22,7 +22,7 @@ Science of Security</em></a> held at the Claremont Resort in November
    
    <center>
    
-[SoK Authors](/authors) &middot; [Frequently Asked Questions](http://oakland31.cs.virginia.edu/sokfaq.html) &middot;
+[SoK Authors](/authors) &middot; [Frequently Asked Questions](http://oakland31.cs.virginia.edu/sokfaq.html) (2010) &middot;
 [Other Conferences with SoK](/others)<Br>
 
 Filter by Venue: [IEEE S&amp;P (Oakland)](/oakland) &middot; [Euro S&amp;P](/eurosp) &middot; [PETS](/pets) &middot; [SaTML](/satml) &middot; [USENIX&nbsp;Security](/usenix)<br>
