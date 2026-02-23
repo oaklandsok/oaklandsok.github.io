@@ -4,7 +4,7 @@ title = "Systematizing Systematization of Knowledge"
 subtitle = ""
 theme = "sok"
 
-disableKinds = ["taxonomy", "taxonomyTerm"]
+disableKinds = ["taxonomy"]
 
 [params]
     sidebartitle = "Systematization of Knowledge"
