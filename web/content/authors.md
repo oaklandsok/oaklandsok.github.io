@@ -2,7 +2,13 @@
 title = "Systematizing Systematization of Knowledge - Authors"
 +++
 
+<center>
+[Main Page](/) 
+</center>
+
 # <center>SoK Authors</center>
+
+## 
 
 ##
 
