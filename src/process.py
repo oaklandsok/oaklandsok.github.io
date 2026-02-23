@@ -90,7 +90,7 @@ def venue_text(venue):
         venuetext = venue
     else:
         venuetext = "S&amp;P"
-    return  "<font color='#888' size='-1'>&nbsp;(" + venuetext + ")</font>" 
+    return  "<font color='#888'>&nbsp;(" + venuetext + ")</font>" 
 
 def generate_web(title, authors, year, url, venue, showvenue = True):
     if not url:
