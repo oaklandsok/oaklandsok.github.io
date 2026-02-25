@@ -16,9 +16,8 @@ According to the NDSS CPF, "systematization of knowledge ... papers do NOT need 
    <center>   
 
 [SoK Authors](/authors) &middot; [Frequently Asked Questions](http://oakland31.cs.virginia.edu/sokfaq.html) &middot;
-[Other Conferences with SoK](/others)<Br>
-
-Venues: [All](/) &middot; [Euro S&amp;P](/eurosp) &middot; [NDSS](/ndss) &middot; [Oakland](/oakland) &middot; [PETS](/pets) &middot; [SaTML](/satml) [USENIX](/usenix) <br>
+[Other Conferences with SoK](/others)<br></br>
+Venues: [All](/) &middot; [Euro S&amp;P](/eurosp) &middot; [NDSS](/ndss) &middot; [Oakland](/oakland) &middot; [PETS](/pets) &middot; [SaTML](/satml) &middot; [USENIX](/usenix) <br></br>
    </center>
 
 ##
