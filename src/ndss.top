@@ -6,7 +6,7 @@ title = "Systematizing Systematization of Knowledge - IEEE Security and Privacy"
 
 <p></p>
 <p><font color="#444">
-The <em>Network and Distributed System Security</em> (NDSS) symposium has included SoK papers since [2026](https://www.ndss-symposium.org/ndss2026/submissions/call-for-papers/). 
+The <em>Network and Distributed System Security</em> (NDSS) symposium has included SoK papers since <a href="https://www.ndss-symposium.org/ndss2026/submissions/call-for-papers/">2026</a>. 
 According to the NDSS CPF, "systematization of knowledge ... papers do NOT need to be prefixed with “SoK:”, but the authors may choose to do so.". Here, only papers that use "SoK:" in their title are included.
 </font>
 </p>
