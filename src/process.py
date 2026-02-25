@@ -76,6 +76,8 @@ def venue_file(venue):
         return "oakland"
     elif venue == "EuroS&P":
         return "eurosp"
+    elif venue == "NDSS":
+        return "ndss"
     elif venue == "PETS":
         return "pets"
     elif venue == "SaTML":

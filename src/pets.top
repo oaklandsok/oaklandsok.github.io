@@ -4,16 +4,6 @@ title = "Systematizing Systematization of Knowledge - IEEE Security and Privacy"
 
 # <center>SoK Papers in Privacy Enhancing Technologies Symposium</center>
 
-   <center>   
-
-[SoK Authors](/authors) &middot; [Frequently Asked Questions](http://oakland31.cs.virginia.edu/sokfaq.html) &middot;
-[Other Conferences with SoK](/others)<Br>
-
-Other Venues: [All](/) &middot; [Oakland](/oakland) &middot; [Euro S&amp;P](/eurosp) &middot; [USENIX](/usenix)<br>
-   </center>
-
-
-##
 
 
 
