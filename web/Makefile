@@ -14,11 +14,12 @@ SRCDIR = $(BASEDIR)/../src/
 html:
 	cd $(SRCDIR); make
 	cat $(SRCDIR)/main.top $(SRCDIR)/byyear.html $(SRCDIR)/main.bottom > $(PAGEDIR)/main.md
-	cat $(SRCDIR)/oakland.top $(SRCDIR)/oakland.html $(SRCDIR)/main.bottom > $(PAGEDIR)/oakland.md
-	cat $(SRCDIR)/eurosp.top $(SRCDIR)/eurosp.html $(SRCDIR)/main.bottom > $(PAGEDIR)/eurosp.md
-	cat $(SRCDIR)/pets.top $(SRCDIR)/pets.html $(SRCDIR)/main.bottom > $(PAGEDIR)/pets.md
-	cat $(SRCDIR)/satml.top $(SRCDIR)/satml.html $(SRCDIR)/main.bottom > $(PAGEDIR)/satml.md
-	cat $(SRCDIR)/usenix.top $(SRCDIR)/usenix.html $(SRCDIR)/main.bottom > $(PAGEDIR)/usenix.md
+	cat $(SRCDIR)/oakland.top $(SRCDIR)/venue.top $(SRCDIR)/oakland.html $(SRCDIR)/main.bottom > $(PAGEDIR)/oakland.md
+	cat $(SRCDIR)/eurosp.top $(SRCDIR)/venue.top $(SRCDIR)/eurosp.html $(SRCDIR)/main.bottom > $(PAGEDIR)/eurosp.md
+	cat $(SRCDIR)/pets.top $(SRCDIR)/venue.top $(SRCDIR)/pets.html $(SRCDIR)/main.bottom > $(PAGEDIR)/pets.md
+	cat $(SRCDIR)/ndss.top $(SRCDIR)/venue.top $(SRCDIR)/ndss.html $(SRCDIR)/main.bottom > $(PAGEDIR)/ndss.md
+	cat $(SRCDIR)/satml.top $(SRCDIR)/venue.top $(SRCDIR)/satml.html $(SRCDIR)/main.bottom > $(PAGEDIR)/satml.md
+	cat $(SRCDIR)/usenix.top $(SRCDIR)/venue.top $(SRCDIR)/usenix.html $(SRCDIR)/main.bottom > $(PAGEDIR)/usenix.md
 	cat $(SRCDIR)/authors.top $(SRCDIR)/authors.html $(SRCDIR)/main.bottom > $(PAGEDIR)/authors.md
 	hugo --theme=$(THEME)
 
