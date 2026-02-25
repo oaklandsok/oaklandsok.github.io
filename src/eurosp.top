@@ -2,7 +2,7 @@
 title = "Systematizing Systematization of Knowledge - IEEE Security and Privacy"
 +++
 
-# <center>SoK Papers in Euro Security and Privacy</center>
+# <center>SoK Papers in Euro Security &amp; Privacy</center>
 
 
 

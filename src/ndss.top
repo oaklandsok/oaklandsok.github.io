@@ -2,11 +2,14 @@
 title = "Systematizing Systematization of Knowledge - IEEE Security and Privacy"
 +++
 
-# <center>SoK Papers in Network and Distributed System Security (NDSS) Symposium</center>
+# <center>SoK Papers in NDSS</center>
 
-Network and Distributed System Security (NDSS) Symposium has include SoK papers since [2026](https://www.ndss-symposium.org/ndss2026/submissions/call-for-papers/). 
-According to the NDSS CPF, "systematization of knowledge (called SoK-papers at other venues) are within the scope of NDSS Symposium, particularly if they provide new insights and compelling evidence. Such papers do NOT need to be prefixed with “SoK:”, but the authors may choose to do so.". Here, only papers that use "SoK:" in their title are included.
-
+<p></p>
+<p><font color="#444">
+The <em>Network and Distributed System Security</em> (NDSS) symposium has included SoK papers since [2026](https://www.ndss-symposium.org/ndss2026/submissions/call-for-papers/). 
+According to the NDSS CPF, "systematization of knowledge ... papers do NOT need to be prefixed with “SoK:”, but the authors may choose to do so.". Here, only papers that use "SoK:" in their title are included.
+</font>
+</p>
 
 
 

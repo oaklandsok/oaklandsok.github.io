@@ -2,7 +2,7 @@
 title = "Systematizing Systematization of Knowledge - IEEE Security and Privacy"
 +++
 
-# <center>SoK Papers in Privacy Enhancing Technologies Symposium</center>
+# <center>SoK Papers in PETS</center>
 
 
 
