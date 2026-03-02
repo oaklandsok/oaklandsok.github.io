@@ -8,9 +8,7 @@ title = "Systematizing Systematization of Knowledge"
    <div style="height: 200px; width: 200px; float: left">
    <a href="/images/trojan.png"><img alt="Oakland Horse" src="/images/trojan.png"></a>
    </div>
-
    <p>
-   <br></br>
 Since 2010, the IEEE Symposium on Security and Privacy ("Oakland"
 conference) has included papers on <em>Systematization of Knowledge</em>
 (SoK).  This paper track grew out of discussions at the <a
