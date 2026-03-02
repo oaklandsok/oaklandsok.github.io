@@ -17,10 +17,10 @@ Science of Security</em></a> held at the Claremont Resort in November
 2008.  </p>
 <p>
 This site collects all the <a href="/oakland">Oakland SoK papers</a>, as well as SoK papers in the <a href="/eurosp">IEEE European Symposium on Security and Privacy</a> (EuroS&amp;P, since 2017), 
-<a href="/ndss">Network and Distributed System Security Symposium</a> (NDSS, since 2026),
-<a href="/pets">Privacy Enhancing Technologies Symposium</a> (PETS, since 2019),
-the <a href="/satml">IEEE Conference on Secure and Trustworthy Machine Learning</a> (SatML, since 2023), and 
-<a href="/usenix">USENIX Security Symposium</a> (since 2024).
+<a href="/ndss"><em>Network and Distributed System Security Symposium</em></a> (NDSS, since 2026),
+<a href="/pets"><em>Privacy Enhancing Technologies Symposium</em></a> (PETS, since 2019),
+the <a href="/satml"><em>IEEE Conference on Secure and Trustworthy Machine Learning</em></a> (SatML, since 2023), and 
+<a href="/usenix"><em>USENIX Security Symposium</em></a> (since 2024).
    </p>
    
    <center>
