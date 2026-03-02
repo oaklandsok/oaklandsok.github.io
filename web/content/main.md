@@ -22,7 +22,6 @@ This site collects all the <a href="/oakland">Oakland SoK papers</a>, as well as
 the <a href="/satml"><em>IEEE Conference on Secure and Trustworthy Machine Learning</em></a> (SatML, since 2023), and 
 <a href="/usenix"><em>USENIX Security Symposium</em></a> (since 2024).
    </p>
-   
    <center>
    
 [SoK Authors](/authors) &middot; [Frequently Asked Questions](http://oakland31.cs.virginia.edu/sokfaq.html) (2010) &middot;
