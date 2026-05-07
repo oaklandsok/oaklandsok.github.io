@@ -30,7 +30,7 @@ the <a href="/satml"><em>IEEE Conference on Secure and Trustworthy Machine Learn
 Filter by Venue: [IEEE S&amp;P (Oakland)](/oakland) &middot; [Euro S&amp;P](/eurosp) &middot; [NDSS](/ndss) &middot; [PETS](/pets) &middot; [SaTML](/satml) &middot; [USENIX&nbsp;Security](/usenix)<br>
 
 
-Also see Shujun Li's [_Online Bibliography of SoK Papers_](https://www.hooklee.com/Research/SoK/SoK.html)<br>
+Also see Shunjun Li's [_Online Bibliography of SoK Papers_](https://www.hooklee.com/Research/SoK/SoK.html)<br>
 </center>
 
 <p></p>
