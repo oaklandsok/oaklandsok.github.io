@@ -38,6 +38,10 @@ def read_papers(fname):
 
     # cleanup
     for paper in papers:
+        if not "Title" in paper:
+            print("No title for paper: " + str(list(paper.items())))
+            continue
+        
         if not paper["Title"]:
             pass
         # print ("Title: " + paper["Title"])
