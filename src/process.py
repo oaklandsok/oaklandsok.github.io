@@ -6,6 +6,8 @@ from collections import namedtuple
 import time
 import re
 import csv
+import os
+import html as html_module
 
 import unicodedata
 
@@ -15,6 +17,29 @@ def normalize_key(text):
     
     # 2. Filter out the accents (non-spacing marks) and make lowercase
     return "".join(c for c in nfd_form if unicodedata.category(c) != 'Mn').casefold()
+
+def author_key(name):
+    """Convert author name (with &nbsp;) to a URL-safe slug."""
+    plain = name.replace('&nbsp;', ' ')
+    plain = html_module.unescape(plain)
+    nfd = unicodedata.normalize('NFD', plain)
+    plain = "".join(c for c in nfd if unicodedata.category(c) != 'Mn')
+    key = plain.lower().replace(' ', '-')
+    key = re.sub(r'[^a-z0-9-]', '', key)
+    return key
+
+def author_display(name):
+    """Convert author name (with &nbsp;) to a readable display name."""
+    return name.replace('&nbsp;', ' ')
+
+def link_authors(authors_str):
+    """Wrap each author name in a link to their individual author page."""
+    parts = []
+    for aname in authors_str.split(', '):
+        key = author_key(aname)
+        display = author_display(aname)
+        parts.append('<a href="/author/' + key + '/">' + display + '</a>')
+    return ', '.join(parts)
 
 def last_name(fullname):
     lastspace = fullname.rfind('&nbsp;')
@@ -41,7 +66,7 @@ def read_papers(fname):
         if not "Title" in paper:
             print("No title for paper: " + str(list(paper.items())))
             continue
-        
+
         if not paper["Title"]:
             pass
         # print ("Title: " + paper["Title"])
@@ -108,13 +133,45 @@ def generate_web(title, authors, year, url, venue, showvenue = True):
     return ('<td width="45%" style="padding: 10px; border-bottom: 1px solid #EDA4BD;">' + urlp + '<em>' + title + '</em>' + ('</a>' if url else '') + (venue_text(venue) if showvenue  else "") + '</td><td style="padding: 10px; border-bottom: 1px solid #EDA4BD;">' + authors + "</td>")
 
 
-def generate_short(title, authors, year, url, venue):
+def generate_short(title, authors, year, url, venue, papernl=False):
     if not url:
-        return ('<em>' + title + '</em> (' + venue + ' ' + year + ')')
+        linked_title = '<em>' + title + '</em>'
     elif url.startswith("https://"):
-        return ('<a href="' + url + '"><em>' + title + '</em></a> (' + venue + ' ' + year + ')')
+        linked_title = '<a href="' + url + '"><em>' + title + '</em></a>'
     else:
-        return ('<a href="/papers/' + url + '"><em>' + title + '</em></a> (' + venue + ' ' + year + ')')
+        linked_title = '<a href="/papers/' + url + '"><em>' + title + '</em></a>'
+    
+    if papernl:
+        return '<p><b>' + linked_title + '</b> &mdash; ' + venue + ' ' + year + '<div class="indented">' + authors + '</div></p>'
+    else:
+        return linked_title + ' (' + venue + ' ' + year + ')<br><small>' + authors + '</small>'
+
+
+def generate_author_pages(authors, output_dir):
+    """Generate one Hugo content page per author in output_dir."""
+    os.makedirs(output_dir, exist_ok=True)
+    # Remove stale author pages from previous runs
+    for fname in os.listdir(output_dir):
+        if fname.endswith('.md'):
+            os.remove(os.path.join(output_dir, fname))
+    for author_name, papers in authors:
+        key = author_key(author_name)
+        display = author_display(author_name)
+        fpath = os.path.join(output_dir, key + '.md')
+        papers_sorted = sorted(papers, key=lambda p: (p["Year"], p["Title"]))
+        with open(fpath, 'w', encoding='utf-8') as f:
+            f.write('+++\n')
+            f.write('title = "' + display + '"\n')
+            f.write('+++\n\n')
+            # f.write('<center>\n\n')
+            # f.write('[SoK Authors](/authors) &middot; [Main Page](/)\n')
+            # f.write('</center>\n\n')
+            f.write('<h1>' + display + '</h1>\n\n')
+            f.write('<p></p>\n')
+            for paper in papers_sorted:
+                linked = link_authors(paper["Authors"])
+                f.write(generate_short(paper["Title"], linked, paper["Year"], paper["URL"], paper["Venue"],papernl=True) + '\n')
+            f.write('\n')
 
 if __name__=="__main__":
     papers, authors, venues = read_papers("papers.csv")
@@ -130,7 +187,7 @@ if __name__=="__main__":
           if not p["Year"] == lastyear:
               lastyear = p["Year"]
               f.write('<tr bgcolor="C46BAE"><td colspan="2" style="bgcolor: #C46BAE; text-align: center; color: #FFFFFF">' + p["Year"] + "</td></tr>")
-          row = generate_web(p["Title"], p["Authors"], p["Year"], p["URL"], p["Venue"])
+          row = generate_web(p["Title"], link_authors(p["Authors"]), p["Year"], p["URL"], p["Venue"])
           f.write(("<tr>" if shading else "<tr bgcolor=\"EEEEFE\">") + row + "</tr>")
           shading = not shading
       f.write("""   </table>""") 
@@ -152,7 +209,7 @@ if __name__=="__main__":
                 if not p["Year"] == lastyear:
                     lastyear = p["Year"]
                     f.write('<tr bgcolor="C46BAE"><td colspan="2" style="bgcolor: #C46BAE; text-align: center; color: #FFFFFF">' + p["Year"] + "</td></tr>")
-                row = generate_web(p["Title"], p["Authors"], p["Year"], p["URL"], p["Venue"], showvenue=False)
+                row = generate_web(p["Title"], link_authors(p["Authors"]), p["Year"], p["URL"], p["Venue"], showvenue=False)
                 f.write(("<tr>" if shading else "<tr bgcolor=\"EEEEFE\">") + row + "</tr>")
                 shading = not shading
             f.write("""   </table>""") 
@@ -160,11 +217,19 @@ if __name__=="__main__":
     print("Writing authors.html...")
     with open("authors.html", "w") as f:
       for author in authors:
-          # print("Author: " + author[0])
-          f.write("<b>" + author[0] + "</b><br>")
+          key = author_key(author[0])
+          display = author_display(author[0])
+          # f.write('<b><a href="/author/' + key + '/">' + display + '</a></b><br>')
+          f.write('<b>' + display + '</b><br>')
           papers = author[1]
           papers.sort(key = lambda p: p["Year"])
           for paper in papers:
-              # print("Paper: " + str(list(paper.items())))
-              f.write('<p class="hanging">' + generate_short(paper["Title"], paper["Authors"], paper["Year"], paper["URL"], paper["Venue"]) + "</p>")
+              f.write('<p class="hanging">' + generate_short(paper["Title"], 
+                                                            link_authors(paper["Authors"]),
+                                                            paper["Year"], paper["URL"], paper["Venue"]) + "</p>")
           f.write("</p><p>")
+
+    print("Writing author pages...")
+    author_pages_dir = os.path.join("..", "web", "content", "author")
+    generate_author_pages(authors, author_pages_dir)
+    print("Wrote " + str(len(authors)) + " author pages to " + author_pages_dir)
